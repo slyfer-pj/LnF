@@ -18,18 +18,42 @@ MonoBehaviour:
   container:
   - entityName: Apparition
     dialogueSaid: ... Garragin, did you get a haircut?
+    clueUnlockIfAny:
+      charName: Chen
+      clueIndex: 0
   - entityName: AntiMage
     dialogueSaid: Huh? No- oh... just a little-
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
   - entityName: Apparition
     dialogueSaid: And those little black tips? What did you do? Set it on fire?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
   - entityName: AntiMage
     dialogueSaid: ...
+    clueUnlockIfAny:
+      charName: Axe
+      clueIndex: 1
   - entityName: Apparition
     dialogueSaid: don't tell me your girfriend did that to you! You'd think she'd
       be better with her hands-
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
   - entityName: AntiMage
     dialogueSaid: '!!!'
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
   - entityName: Apparition
     dialogueSaid: Considering her handwriting is so neat!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
   - entityName: AntiMage
     dialogueSaid: ...
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0

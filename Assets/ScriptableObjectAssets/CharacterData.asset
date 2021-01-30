@@ -16,18 +16,42 @@ MonoBehaviour:
   - charName: Apparition
     portraitSprite: {fileID: -144409104124861535, guid: 50272cc5481b6d0419b16891bc3096dc,
       type: 3}
+    clueArray:
+    - ap 1
+    - ap2
+    - ap3
   - charName: AntiMage
     portraitSprite: {fileID: 5449354407470037156, guid: 50272cc5481b6d0419b16891bc3096dc,
       type: 3}
+    clueArray:
+    - am 1
+    - am 2
+    - am 3
   - charName: Axe
     portraitSprite: {fileID: 9140981839655210451, guid: 50272cc5481b6d0419b16891bc3096dc,
       type: 3}
+    clueArray:
+    - axe 1
+    - axe 2
+    - axe 3
   - charName: Beastmaster
     portraitSprite: {fileID: 5379003782861072812, guid: 50272cc5481b6d0419b16891bc3096dc,
       type: 3}
+    clueArray:
+    - bm 1
+    - bm 2
+    - bm 3
   - charName: Chen
     portraitSprite: {fileID: 3972034361865663802, guid: 50272cc5481b6d0419b16891bc3096dc,
       type: 3}
+    clueArray:
+    - cn 1
+    - cn 2
+    - cn 3
   - charName: Clockwerk
     portraitSprite: {fileID: 3159654389511851432, guid: 50272cc5481b6d0419b16891bc3096dc,
       type: 3}
+    clueArray:
+    - cw 1
+    - cw 2
+    - cw 3

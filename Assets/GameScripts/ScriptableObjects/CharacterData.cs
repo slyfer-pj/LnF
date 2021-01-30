@@ -13,4 +13,19 @@ public class CharacterDataFields
 {
     public string charName;
     public Sprite portraitSprite;
+    public string[] clueArray;
+}
+
+[System.Serializable]
+public class AllCharacterSaveData
+{
+    public CharacterSaveData[] consolidatedCharSaveData;
+}
+
+[System.Serializable]
+public class CharacterSaveData
+{
+    public string charName;
+    public bool hasBeenDiscovered;
+    public List<int> discoveredCluesIndex;
 }

@@ -14,4 +14,12 @@ public class DialogueContainer
 {
     public string entityName;
     [TextArea] public string dialogueSaid;
+    public ClueUnlock clueUnlockIfAny;
+}
+
+[System.Serializable]
+public struct ClueUnlock
+{
+    public string charName;
+    public int clueIndex;
 }

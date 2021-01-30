@@ -168,9 +168,9 @@ GameObject:
   - component: {fileID: 2705090806099934624}
   - component: {fileID: 6106018071976046302}
   - component: {fileID: 3066336690167814133}
-  - component: {fileID: 5663216767425177972}
+  - component: {fileID: 7286089503488132374}
   m_Layer: 5
-  m_Name: ObjPrefab
+  m_Name: SubObjPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5663216767425177972}
+      - m_Target: {fileID: 7286089503488132374}
         m_MethodName: OnClickObject
         m_Mode: 1
         m_Arguments:
@@ -287,7 +287,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5663216767425177972
+--- !u!114 &7286089503488132374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -296,6 +296,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5712028980391322539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c62ff80719fca9419c58b13e2805268, type: 3}
+  m_Script: {fileID: 11500000, guid: 86db05608f5026a4db5fe480933645ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

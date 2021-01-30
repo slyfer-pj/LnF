@@ -8,7 +8,8 @@ public class GetObjectData : MonoBehaviour
     [SerializeField] private LostObjectData lostObjData;
     [SerializeField] private GameObject objPrefab;
     [SerializeField] private Transform objHolder;
-    private ObjectSaveData[] objSaveData;
+    public InspectObject inspectObjectScreen;
+    private AllObjectSaveData objSaveData;
 
 
     private void Start()
@@ -19,12 +20,13 @@ public class GetObjectData : MonoBehaviour
 
     private void PopulateObjectsOnScreen()
     {
-        for(int i=0; i<objSaveData.Length; i++)
+        for(int i=0; i<objSaveData.saveData.Length; i++)
         {
-            if(objSaveData[i].hasBeenDiscovered)
+            if(objSaveData.saveData[i].hasBeenDiscovered)
             {
                 GameObject obj = Instantiate(objPrefab, objHolder);
                 obj.GetComponent<Image>().sprite = lostObjData.objData[i].objectSprite;
+                obj.GetComponent<ObjDataHolder>().ObjData = lostObjData.objData[i];
             }
         }
     }
@@ -33,7 +35,7 @@ public class GetObjectData : MonoBehaviour
     {
         if(FileOps.CheckIfFileExists(GameConstants.DATA_OBJECTSDATA_FILEPATH))
         {
-            objSaveData = FileOps.Load<AllObjectSaveData>(GameConstants.DATA_OBJECTSDATA_FILEPATH).saveData;
+            objSaveData = FileOps.Load<AllObjectSaveData>(GameConstants.DATA_OBJECTSDATA_FILEPATH);
         }
         else
         {
@@ -51,14 +53,27 @@ public class GetObjectData : MonoBehaviour
             ObjectSaveData saveData = new ObjectSaveData()
             {
                 objectName = lostObjData.objData[i].objectName,
-                hasBeenDiscovered = lostObjData.objData[i].discoveredByDefault
+                hasBeenDiscovered = lostObjData.objData[i].dayUnlocked == 1 ? true : false
             };
 
             consolidatedSaveData.saveData[i] = saveData;
         }
 
-        objSaveData = consolidatedSaveData.saveData;
+        objSaveData = consolidatedSaveData;
 
-        FileOps.Save(consolidatedSaveData, GameConstants.DATA_OBJECTSDATA_FILEPATH);
+        FileOps.Save(objSaveData, GameConstants.DATA_OBJECTSDATA_FILEPATH);
+    }
+
+    public void CheckIfObjectIsToBeUnlocked(int dayNumber)
+    {
+        for(int i=0; i<lostObjData.objData.Length; i++)
+        {
+            if(lostObjData.objData[i].dayUnlocked == dayNumber)
+            {
+                objSaveData.saveData[i].hasBeenDiscovered = true;
+            }
+        }
+
+        FileOps.Save(objSaveData, GameConstants.DATA_OBJECTSDATA_FILEPATH);
     }
 }

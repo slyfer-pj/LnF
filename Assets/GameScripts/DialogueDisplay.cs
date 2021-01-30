@@ -9,11 +9,20 @@ public class DialogueDisplay : MonoBehaviour
     [SerializeField] private TextMeshProUGUI charName;
     [SerializeField] private TextMeshProUGUI dialogueField;
     [SerializeField] private Image[] portraits;
-    [SerializeField] private CharacterData characterData;
+    public CharacterData characterData;
 
     public DialogueData CurrentDialogueSet { get; set; }
 
     private int currentDialogueIndex;
+    public AllCharacterSaveData CharSavedData { get; set; }
+
+    private void Awake()
+    {
+        if (!FileOps.CheckIfFileExists(GameConstants.DATA_CHARACTERDATA_FILEPATH))
+            SaveFirstTimeData();
+        else
+            CharSavedData = FileOps.Load<AllCharacterSaveData>(GameConstants.DATA_CHARACTERDATA_FILEPATH);
+    }
 
     private void OnEnable()
     {
@@ -27,12 +36,15 @@ public class DialogueDisplay : MonoBehaviour
         }
 
         ShowDialogue();
+        CheckIfNewCharacterIsDiscovered();
     }
 
     private void ShowDialogue()
     {
         charName.text = CurrentDialogueSet.container[currentDialogueIndex].entityName;
         dialogueField.text = CurrentDialogueSet.container[currentDialogueIndex].dialogueSaid;
+
+        CheckIfClueIsDiscovered(CurrentDialogueSet.container[currentDialogueIndex].clueUnlockIfAny);
     }
 
     public void OnClickNext()
@@ -59,5 +71,60 @@ public class DialogueDisplay : MonoBehaviour
             }
         }
         Debug.LogError("no character exists of name = " + charName);
+    }
+
+    private void CheckIfNewCharacterIsDiscovered()
+    {
+        foreach(string charName in CurrentDialogueSet.participatingCharacters)
+        {
+            foreach(CharacterSaveData data in CharSavedData.consolidatedCharSaveData)
+            {
+                if(data.charName.Equals(charName))
+                {
+                    data.hasBeenDiscovered = true;
+                    break;
+                }
+            }
+        }
+
+        FileOps.Save(CharSavedData, GameConstants.DATA_CHARACTERDATA_FILEPATH);
+    }
+
+    private void CheckIfClueIsDiscovered(ClueUnlock unlock)
+    {
+        if(!unlock.charName.Equals(string.Empty))
+        {
+            foreach (CharacterSaveData data in CharSavedData.consolidatedCharSaveData)
+            {
+                if (data.charName.Equals(unlock.charName))
+                {
+                    data.discoveredCluesIndex.Add(unlock.clueIndex);
+                    break;
+                }
+            }
+
+            FileOps.Save(CharSavedData, GameConstants.DATA_CHARACTERDATA_FILEPATH);
+        }
+    }
+
+    private void SaveFirstTimeData()
+    {
+        AllCharacterSaveData saveData = new AllCharacterSaveData();
+        saveData.consolidatedCharSaveData = new CharacterSaveData[characterData.allCharactersData.Length];
+
+        for(int i=0; i < characterData.allCharactersData.Length; i++)
+        {
+            CharacterSaveData charData = new CharacterSaveData();
+            charData.discoveredCluesIndex = new List<int>();
+
+            charData.charName = characterData.allCharactersData[i].charName;
+            charData.hasBeenDiscovered = false;
+
+            saveData.consolidatedCharSaveData[i] = charData;
+        }
+
+        CharSavedData = saveData;
+
+        FileOps.Save(saveData, GameConstants.DATA_CHARACTERDATA_FILEPATH);
     }
 }

@@ -14,7 +14,8 @@ public class ObjectData
     public string objectName;
     public Sprite objectSprite;
     [TextArea] public string objectDescription;
-    public bool discoveredByDefault;
+    public SubObjectData[] subObjData;
+    public int dayUnlocked;
 }
 
 [System.Serializable]
@@ -28,4 +29,12 @@ public class ObjectSaveData
 {
     public string objectName;
     public bool hasBeenDiscovered;
+}
+ 
+[System.Serializable]
+public struct SubObjectData
+{
+    public string subObjName;
+    public Sprite subObjSprite;
+    [TextArea] public string subObjDescription;
 }

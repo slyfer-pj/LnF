@@ -18,14 +18,32 @@ MonoBehaviour:
   container:
   - entityName: Axe
     dialogueSaid: ... Garragin, did you get a haircut?
+    clueUnlockIfAny:
+      charName: Chen
+      clueIndex: 2
   - entityName: Chen
     dialogueSaid: Huh? No- oh... just a little-
+    clueUnlockIfAny:
+      charName: AntiMage
+      clueIndex: 0
   - entityName: Axe
     dialogueSaid: And those little black tips? What did you do? Set it on fire?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
   - entityName: Chen
     dialogueSaid: ...
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
   - entityName: Axe
     dialogueSaid: don't tell me your girfriend did that to you! You'd think she'd
       be better with her hands-
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
   - entityName: Chen
     dialogueSaid: '!!!'
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0

@@ -14,26 +14,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objData:
   - objectName: Book
-    objectSprite: {fileID: 0}
+    objectSprite: {fileID: 8655468781121616392, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
+      type: 3}
     objectDescription: 'Book
 
 '
-    discoveredByDefault: 0
+    subObjData:
+    - subObjName: x1
+      subObjSprite: {fileID: 2753301060275289173, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
+        type: 3}
+      subObjDescription: tis int item
+    - subObjName: x2
+      subObjSprite: {fileID: 4621569156102734521, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
+        type: 3}
+      subObjDescription: tis raindrop
+    - subObjName: x3
+      subObjSprite: {fileID: 561822826474636880, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
+        type: 3}
+      subObjDescription: tis smoke
+    discoveredByDefault: 1
   - objectName: Bag
-    objectSprite: {fileID: 0}
+    objectSprite: {fileID: -6423471159954883645, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
+      type: 3}
     objectDescription: Bag
+    subObjData: []
     discoveredByDefault: 0
   - objectName: Box
-    objectSprite: {fileID: 0}
+    objectSprite: {fileID: -5048171549486193957, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
+      type: 3}
     objectDescription: Box
+    subObjData: []
     discoveredByDefault: 0
   - objectName: Sword
-    objectSprite: {fileID: 0}
+    objectSprite: {fileID: -475637391284598790, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
+      type: 3}
     objectDescription: Sword
+    subObjData: []
     discoveredByDefault: 0
   - objectName: Gun
-    objectSprite: {fileID: 0}
+    objectSprite: {fileID: 7274791877870668184, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
+      type: 3}
     objectDescription: 'Gun
 
 '
+    subObjData: []
     discoveredByDefault: 0
