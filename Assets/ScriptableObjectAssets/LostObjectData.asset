@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d8df0840db40c4e9b5c1aa4ab85529, type: 3}
+  m_Name: LostObjectData
+  m_EditorClassIdentifier: 
+  objData:
+  - objectName: Book
+    objectSprite: {fileID: 0}
+    objectDescription: 'Book
+
+'
+    discoveredByDefault: 0
+  - objectName: Bag
+    objectSprite: {fileID: 0}
+    objectDescription: Bag
+    discoveredByDefault: 0
+  - objectName: Box
+    objectSprite: {fileID: 0}
+    objectDescription: Box
+    discoveredByDefault: 0
+  - objectName: Sword
+    objectSprite: {fileID: 0}
+    objectDescription: Sword
+    discoveredByDefault: 0
+  - objectName: Gun
+    objectSprite: {fileID: 0}
+    objectDescription: 'Gun
+
+'
+    discoveredByDefault: 0
