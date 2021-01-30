@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d404c62e42986f4abc2aa5a03688757, type: 3}
+  m_Name: CharacterData
+  m_EditorClassIdentifier: 
+  allCharactersData:
+  - charName: Apparition
+    portraitSprite: {fileID: -144409104124861535, guid: 50272cc5481b6d0419b16891bc3096dc,
+      type: 3}
+  - charName: AntiMage
+    portraitSprite: {fileID: 5449354407470037156, guid: 50272cc5481b6d0419b16891bc3096dc,
+      type: 3}
+  - charName: Axe
+    portraitSprite: {fileID: 9140981839655210451, guid: 50272cc5481b6d0419b16891bc3096dc,
+      type: 3}
+  - charName: Beastmaster
+    portraitSprite: {fileID: 5379003782861072812, guid: 50272cc5481b6d0419b16891bc3096dc,
+      type: 3}
+  - charName: Chen
+    portraitSprite: {fileID: 3972034361865663802, guid: 50272cc5481b6d0419b16891bc3096dc,
+      type: 3}
+  - charName: Clockwerk
+    portraitSprite: {fileID: 3159654389511851432, guid: 50272cc5481b6d0419b16891bc3096dc,
+      type: 3}

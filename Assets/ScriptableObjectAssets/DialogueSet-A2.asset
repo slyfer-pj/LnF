@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: DialogueSet-A2
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Axe
+  - Chen
+  container:
+  - entityName: Axe
+    dialogueSaid: ... Garragin, did you get a haircut?
+  - entityName: Chen
+    dialogueSaid: Huh? No- oh... just a little-
+  - entityName: Axe
+    dialogueSaid: And those little black tips? What did you do? Set it on fire?
+  - entityName: Chen
+    dialogueSaid: ...
+  - entityName: Axe
+    dialogueSaid: don't tell me your girfriend did that to you! You'd think she'd
+      be better with her hands-
+  - entityName: Chen
+    dialogueSaid: '!!!'

@@ -1,0 +1,2234 @@
+fileFormatVersion: 2
+guid: 50272cc5481b6d0419b16891bc3096dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -144409104124861535
+    second: dotaheroes_0
+  - first:
+      213: 5449354407470037156
+    second: dotaheroes_1
+  - first:
+      213: 9140981839655210451
+    second: dotaheroes_2
+  - first:
+      213: 5379003782861072812
+    second: dotaheroes_3
+  - first:
+      213: 3972034361865663802
+    second: dotaheroes_4
+  - first:
+      213: 3159654389511851432
+    second: dotaheroes_5
+  - first:
+      213: 4010235813702567232
+    second: dotaheroes_6
+  - first:
+      213: -6125461032502110161
+    second: dotaheroes_7
+  - first:
+      213: -4970791091368739108
+    second: dotaheroes_8
+  - first:
+      213: -1212291050616343008
+    second: dotaheroes_9
+  - first:
+      213: 5914804948612587883
+    second: dotaheroes_10
+  - first:
+      213: -1179299614143494194
+    second: dotaheroes_11
+  - first:
+      213: -7513518479669649632
+    second: dotaheroes_12
+  - first:
+      213: -1374117018200074496
+    second: dotaheroes_13
+  - first:
+      213: -8962948335364820763
+    second: dotaheroes_14
+  - first:
+      213: -5706478849610325726
+    second: dotaheroes_15
+  - first:
+      213: -6212290560818801226
+    second: dotaheroes_16
+  - first:
+      213: 2868562014313066285
+    second: dotaheroes_17
+  - first:
+      213: 8704589843497552753
+    second: dotaheroes_18
+  - first:
+      213: 3461816199265102649
+    second: dotaheroes_19
+  - first:
+      213: 1546627889638963445
+    second: dotaheroes_20
+  - first:
+      213: 7250686893400688608
+    second: dotaheroes_21
+  - first:
+      213: -7904551203919702328
+    second: dotaheroes_22
+  - first:
+      213: -4969299756111642944
+    second: dotaheroes_23
+  - first:
+      213: -4415471677956578939
+    second: dotaheroes_24
+  - first:
+      213: 3260166247518368483
+    second: dotaheroes_25
+  - first:
+      213: -4347400466724950098
+    second: dotaheroes_26
+  - first:
+      213: -309738700311556131
+    second: dotaheroes_27
+  - first:
+      213: -5403238893387665579
+    second: dotaheroes_28
+  - first:
+      213: 6741983171160391440
+    second: dotaheroes_29
+  - first:
+      213: -4855434529718991276
+    second: dotaheroes_30
+  - first:
+      213: 3531098361369221336
+    second: dotaheroes_31
+  - first:
+      213: 5882687370628471490
+    second: dotaheroes_32
+  - first:
+      213: 2797981946655573637
+    second: dotaheroes_33
+  - first:
+      213: 6116140959817142380
+    second: dotaheroes_34
+  - first:
+      213: 9183440637637157031
+    second: dotaheroes_35
+  - first:
+      213: -1569611516564269510
+    second: dotaheroes_36
+  - first:
+      213: 2533017861693890519
+    second: dotaheroes_37
+  - first:
+      213: -3432875402916849157
+    second: dotaheroes_38
+  - first:
+      213: 3967546223245728880
+    second: dotaheroes_39
+  - first:
+      213: 6514307462405156223
+    second: dotaheroes_40
+  - first:
+      213: 1083786678455208407
+    second: dotaheroes_41
+  - first:
+      213: 8112626626769937840
+    second: dotaheroes_42
+  - first:
+      213: 6997367002712719100
+    second: dotaheroes_43
+  - first:
+      213: -8158647686409061145
+    second: dotaheroes_44
+  - first:
+      213: 2580973465934696895
+    second: dotaheroes_45
+  - first:
+      213: -949999463793420597
+    second: dotaheroes_46
+  - first:
+      213: -768165398253456659
+    second: dotaheroes_47
+  - first:
+      213: -8987673917936989110
+    second: dotaheroes_48
+  - first:
+      213: 7613121203350687645
+    second: dotaheroes_49
+  - first:
+      213: 5190312620044696367
+    second: dotaheroes_50
+  - first:
+      213: 1123104110780027560
+    second: dotaheroes_51
+  - first:
+      213: 6395355489650641097
+    second: dotaheroes_52
+  - first:
+      213: -4340065292993328226
+    second: dotaheroes_53
+  - first:
+      213: 8820398948847949238
+    second: dotaheroes_54
+  - first:
+      213: -3313474324312405547
+    second: dotaheroes_55
+  - first:
+      213: 5155742844235013765
+    second: dotaheroes_56
+  - first:
+      213: 1533055465769943385
+    second: dotaheroes_57
+  - first:
+      213: 4427912161015893757
+    second: dotaheroes_58
+  - first:
+      213: 2215604874864113049
+    second: dotaheroes_59
+  - first:
+      213: -1467178652292854441
+    second: dotaheroes_60
+  - first:
+      213: 5806859650978376576
+    second: dotaheroes_61
+  - first:
+      213: 165511647406675651
+    second: dotaheroes_62
+  - first:
+      213: -7954553030369580192
+    second: dotaheroes_63
+  - first:
+      213: -2148976203392717318
+    second: dotaheroes_64
+  - first:
+      213: 8946969526493132525
+    second: dotaheroes_65
+  - first:
+      213: -7778141238345227193
+    second: dotaheroes_66
+  - first:
+      213: -338508124775998425
+    second: dotaheroes_67
+  - first:
+      213: 8131779345465314801
+    second: dotaheroes_68
+  - first:
+      213: 1418644438943661381
+    second: dotaheroes_69
+  - first:
+      213: 5787176368298607821
+    second: dotaheroes_70
+  - first:
+      213: -6356643815269538174
+    second: dotaheroes_71
+  - first:
+      213: -4005689954618087572
+    second: dotaheroes_72
+  - first:
+      213: 1572822696782511860
+    second: dotaheroes_73
+  - first:
+      213: -7713264782329882609
+    second: dotaheroes_74
+  - first:
+      213: 4802454311394343104
+    second: dotaheroes_75
+  - first:
+      213: 3903193683140766829
+    second: dotaheroes_76
+  - first:
+      213: -2211746551311018343
+    second: dotaheroes_77
+  - first:
+      213: 4794503936981138626
+    second: dotaheroes_78
+  - first:
+      213: -9150977444847889093
+    second: dotaheroes_79
+  - first:
+      213: -3410226696396545909
+    second: dotaheroes_80
+  - first:
+      213: -4876806815339661413
+    second: dotaheroes_81
+  - first:
+      213: -2965316249347484649
+    second: dotaheroes_82
+  - first:
+      213: 5373209094539800820
+    second: dotaheroes_83
+  - first:
+      213: 4068908428470859348
+    second: dotaheroes_84
+  - first:
+      213: 4689272379913912373
+    second: dotaheroes_85
+  - first:
+      213: -7426065831746784680
+    second: dotaheroes_86
+  - first:
+      213: 5667786370711904733
+    second: dotaheroes_87
+  - first:
+      213: -8749877283222064402
+    second: dotaheroes_88
+  - first:
+      213: 2766740641286863812
+    second: dotaheroes_89
+  - first:
+      213: 2491255098755055557
+    second: dotaheroes_90
+  - first:
+      213: -7278534126891562779
+    second: dotaheroes_91
+  - first:
+      213: -6469773569749969543
+    second: dotaheroes_92
+  - first:
+      213: -2459136201701392623
+    second: dotaheroes_93
+  - first:
+      213: -6637305833718834539
+    second: dotaheroes_94
+  - first:
+      213: 35869034548765153
+    second: dotaheroes_95
+  - first:
+      213: 4911601858488309514
+    second: dotaheroes_96
+  - first:
+      213: -3005771406375022721
+    second: dotaheroes_97
+  - first:
+      213: 675795217974044248
+    second: dotaheroes_98
+  - first:
+      213: 6150299552137812094
+    second: dotaheroes_99
+  - first:
+      213: 6359567057759043254
+    second: dotaheroes_100
+  - first:
+      213: -7828640967446547581
+    second: dotaheroes_101
+  - first:
+      213: 547903092232349381
+    second: dotaheroes_102
+  - first:
+      213: -2947044900546302837
+    second: dotaheroes_103
+  - first:
+      213: 8050417838028087112
+    second: dotaheroes_104
+  - first:
+      213: 4804826470141384903
+    second: dotaheroes_105
+  - first:
+      213: 4515408471945597856
+    second: dotaheroes_106
+  - first:
+      213: 3671390775633627655
+    second: dotaheroes_107
+  - first:
+      213: -2301978752724967175
+    second: dotaheroes_108
+  - first:
+      213: 1990060162749509355
+    second: dotaheroes_109
+  - first:
+      213: -6605742325388682723
+    second: dotaheroes_110
+  - first:
+      213: 8780204427874791614
+    second: dotaheroes_111
+  - first:
+      213: -7732970464794608821
+    second: dotaheroes_112
+  - first:
+      213: 3513986242644618661
+    second: dotaheroes_113
+  - first:
+      213: 91081151326446101
+    second: dotaheroes_114
+  - first:
+      213: -7047403765340386081
+    second: dotaheroes_115
+  - first:
+      213: 80372598170955044
+    second: dotaheroes_116
+  - first:
+      213: 8701509947680230581
+    second: dotaheroes_117
+  - first:
+      213: 8664692269842833692
+    second: dotaheroes_118
+  - first:
+      213: 2450577635389057224
+    second: dotaheroes_119
+  - first:
+      213: -7648607459806066839
+    second: dotaheroes_120
+  - first:
+      213: -6291133414857985008
+    second: dotaheroes_121
+  - first:
+      213: -5525129811135227945
+    second: dotaheroes_122
+  - first:
+      213: -6343296090776495184
+    second: dotaheroes_123
+  - first:
+      213: -4599894523535939438
+    second: dotaheroes_124
+  - first:
+      213: 6158077349765970669
+    second: dotaheroes_125
+  - first:
+      213: -384294730948972850
+    second: dotaheroes_126
+  - first:
+      213: -5863948430766944237
+    second: dotaheroes_127
+  - first:
+      213: 6071899257549513732
+    second: dotaheroes_128
+  - first:
+      213: 5266328228475276014
+    second: dotaheroes_129
+  - first:
+      213: 8746625033465208509
+    second: dotaheroes_130
+  - first:
+      213: -7605554375422781405
+    second: dotaheroes_131
+  - first:
+      213: -5234596765250347967
+    second: dotaheroes_132
+  - first:
+      213: -4479909956584222743
+    second: dotaheroes_133
+  - first:
+      213: -8129043725854546400
+    second: dotaheroes_134
+  - first:
+      213: -598073254090400672
+    second: dotaheroes_135
+  - first:
+      213: 581971529330594711
+    second: dotaheroes_136
+  - first:
+      213: 2708804685282340787
+    second: dotaheroes_137
+  - first:
+      213: -1394863431153308874
+    second: dotaheroes_138
+  - first:
+      213: 2164294519205907781
+    second: dotaheroes_139
+  - first:
+      213: -3193302116284077111
+    second: dotaheroes_140
+  - first:
+      213: -8948601505111390478
+    second: dotaheroes_141
+  - first:
+      213: 8187182920427293634
+    second: dotaheroes_142
+  - first:
+      213: -737455948154685015
+    second: dotaheroes_143
+  - first:
+      213: -2414868793768836663
+    second: dotaheroes_144
+  - first:
+      213: 6460813680174884475
+    second: dotaheroes_145
+  - first:
+      213: 4978094544484239444
+    second: dotaheroes_146
+  - first:
+      213: -6184302422410012868
+    second: dotaheroes_147
+  - first:
+      213: 5294462318545531996
+    second: dotaheroes_148
+  - first:
+      213: -7223454256815736518
+    second: dotaheroes_149
+  - first:
+      213: -8625374077454511851
+    second: dotaheroes_150
+  - first:
+      213: 5718287062629799957
+    second: dotaheroes_151
+  - first:
+      213: -1184252311983993670
+    second: dotaheroes_152
+  - first:
+      213: -3508764886809232766
+    second: dotaheroes_153
+  - first:
+      213: -9209384755831043878
+    second: dotaheroes_154
+  - first:
+      213: 8316267518066955722
+    second: dotaheroes_155
+  - first:
+      213: -3079393517663961736
+    second: dotaheroes_156
+  - first:
+      213: -67540953327010405
+    second: dotaheroes_157
+  - first:
+      213: -1152453707284389454
+    second: dotaheroes_158
+  - first:
+      213: 8359765990272491617
+    second: dotaheroes_159
+  - first:
+      213: 2043692366294840208
+    second: dotaheroes_160
+  - first:
+      213: 5552616045563869762
+    second: dotaheroes_161
+  - first:
+      213: 5522050478673757632
+    second: dotaheroes_162
+  - first:
+      213: -3034829231449589200
+    second: dotaheroes_163
+  - first:
+      213: 4673891662146983600
+    second: dotaheroes_164
+  - first:
+      213: 8336948442544858167
+    second: dotaheroes_165
+  - first:
+      213: 9221489949835367672
+    second: dotaheroes_166
+  - first:
+      213: 5629886761493489538
+    second: dotaheroes_167
+  - first:
+      213: 3746671451306989284
+    second: dotaheroes_168
+  - first:
+      213: -3914337808087908919
+    second: dotaheroes_169
+  - first:
+      213: -2487698813062877701
+    second: dotaheroes_170
+  - first:
+      213: -539199549909526828
+    second: dotaheroes_171
+  - first:
+      213: 2070455472557023398
+    second: dotaheroes_172
+  - first:
+      213: -2016691538048747246
+    second: dotaheroes_173
+  - first:
+      213: 2835047565321128926
+    second: dotaheroes_174
+  - first:
+      213: 8195121182228844413
+    second: dotaheroes_175
+  - first:
+      213: 5437905819170615984
+    second: dotaheroes_176
+  - first:
+      213: 204245256201046378
+    second: dotaheroes_177
+  - first:
+      213: 6535545619009984035
+    second: dotaheroes_178
+  - first:
+      213: -7473353840671564110
+    second: dotaheroes_179
+  - first:
+      213: 3661165693954230800
+    second: dotaheroes_180
+  - first:
+      213: -1860477040374864360
+    second: dotaheroes_181
+  - first:
+      213: 641365246081880666
+    second: dotaheroes_182
+  - first:
+      213: -9110560490042136656
+    second: dotaheroes_183
+  - first:
+      213: -3736594904498824936
+    second: dotaheroes_184
+  - first:
+      213: -6562406061859694405
+    second: dotaheroes_185
+  - first:
+      213: -7024764144651196711
+    second: dotaheroes_186
+  - first:
+      213: 4871724650076759498
+    second: dotaheroes_187
+  - first:
+      213: 1491664371937634996
+    second: dotaheroes_188
+  - first:
+      213: -1651538373793671041
+    second: dotaheroes_189
+  - first:
+      213: -389078414702547733
+    second: dotaheroes_190
+  - first:
+      213: -2798681081434817281
+    second: dotaheroes_191
+  - first:
+      213: 6812390891331436306
+    second: dotaheroes_192
+  - first:
+      213: 7745486519262103806
+    second: dotaheroes_193
+  - first:
+      213: -7195572555792850061
+    second: dotaheroes_194
+  - first:
+      213: 3256518014077221859
+    second: dotaheroes_195
+  - first:
+      213: -4444334799774721150
+    second: dotaheroes_196
+  - first:
+      213: 4935078173359782896
+    second: dotaheroes_197
+  - first:
+      213: 8266115371020682853
+    second: dotaheroes_198
+  - first:
+      213: -6677569990475073827
+    second: dotaheroes_199
+  - first:
+      213: -1834534488236911219
+    second: dotaheroes_200
+  - first:
+      213: 7405782183219152909
+    second: dotaheroes_201
+  - first:
+      213: 1018772275887461133
+    second: dotaheroes_202
+  - first:
+      213: 5429174457370815020
+    second: dotaheroes_203
+  - first:
+      213: 5572992668700045933
+    second: dotaheroes_204
+  - first:
+      213: -7136432804228371456
+    second: dotaheroes_205
+  - first:
+      213: -3774095039299268637
+    second: dotaheroes_206
+  - first:
+      213: 907968307821471830
+    second: dotaheroes_207
+  - first:
+      213: -5795876706667601182
+    second: dotaheroes_208
+  - first:
+      213: 4177150637858286234
+    second: dotaheroes_209
+  - first:
+      213: -1674975002546064174
+    second: dotaheroes_210
+  - first:
+      213: -8848451968511703354
+    second: dotaheroes_211
+  - first:
+      213: -3777200213470182528
+    second: dotaheroes_212
+  - first:
+      213: 5764489894358387530
+    second: dotaheroes_213
+  - first:
+      213: 2681634429805049741
+    second: dotaheroes_214
+  - first:
+      213: 5988616571964302979
+    second: dotaheroes_215
+  - first:
+      213: -4933084325866065355
+    second: dotaheroes_216
+  - first:
+      213: 4236730285329997896
+    second: dotaheroes_217
+  - first:
+      213: 1641695545243574692
+    second: dotaheroes_218
+  - first:
+      213: 2890906300979682438
+    second: dotaheroes_219
+  - first:
+      213: -8948348902140941753
+    second: dotaheroes_220
+  - first:
+      213: -1157010084620467241
+    second: dotaheroes_221
+  - first:
+      213: -5188030621815233174
+    second: dotaheroes_222
+  - first:
+      213: -5840792250147231051
+    second: dotaheroes_223
+  - first:
+      213: -8576481847991738569
+    second: dotaheroes_224
+  - first:
+      213: -6275047974498138846
+    second: dotaheroes_225
+  - first:
+      213: -4582292896635654375
+    second: dotaheroes_226
+  - first:
+      213: -2352434133935973928
+    second: dotaheroes_227
+  - first:
+      213: -4867637729323852113
+    second: dotaheroes_228
+  - first:
+      213: 2960090546284181524
+    second: dotaheroes_229
+  - first:
+      213: 8002124933945698582
+    second: dotaheroes_230
+  - first:
+      213: -6833838293291101419
+    second: dotaheroes_231
+  - first:
+      213: -2717576740853443151
+    second: dotaheroes_232
+  - first:
+      213: 6108615906864476394
+    second: dotaheroes_233
+  - first:
+      213: -3052052545879269444
+    second: dotaheroes_234
+  - first:
+      213: 2518937825604543962
+    second: dotaheroes_235
+  - first:
+      213: 8308762565300138302
+    second: dotaheroes_236
+  - first:
+      213: 5725022744965200070
+    second: dotaheroes_237
+  - first:
+      213: -3071343533084196953
+    second: dotaheroes_238
+  - first:
+      213: -5554903076519494508
+    second: dotaheroes_239
+  - first:
+      213: -2130766182449158277
+    second: dotaheroes_240
+  - first:
+      213: 680612888974471031
+    second: dotaheroes_241
+  - first:
+      213: -5281401246909439615
+    second: dotaheroes_242
+  - first:
+      213: 202042356943863612
+    second: dotaheroes_243
+  - first:
+      213: 3889753481895668842
+    second: dotaheroes_244
+  - first:
+      213: -6742137689358142051
+    second: dotaheroes_245
+  - first:
+      213: 8319307039590594858
+    second: dotaheroes_246
+  - first:
+      213: 493716738840997752
+    second: dotaheroes_247
+  - first:
+      213: -439031591800792342
+    second: dotaheroes_248
+  - first:
+      213: -8601868214949772447
+    second: dotaheroes_249
+  - first:
+      213: -6529438528412204354
+    second: dotaheroes_250
+  - first:
+      213: -7711749006252658841
+    second: dotaheroes_251
+  - first:
+      213: 7966938331601557838
+    second: dotaheroes_252
+  - first:
+      213: 768517957347174019
+    second: dotaheroes_253
+  - first:
+      213: -3978257602369326039
+    second: dotaheroes_254
+  - first:
+      213: 6351891563924137764
+    second: dotaheroes_255
+  - first:
+      213: 1045435809808023687
+    second: dotaheroes_256
+  - first:
+      213: 6778242696200255546
+    second: dotaheroes_257
+  - first:
+      213: 4256152568163701464
+    second: dotaheroes_258
+  - first:
+      213: 8772818074371572497
+    second: dotaheroes_259
+  - first:
+      213: -7762465662828879386
+    second: dotaheroes_260
+  - first:
+      213: -5546285258820180798
+    second: dotaheroes_261
+  - first:
+      213: 6728483842958488110
+    second: dotaheroes_262
+  - first:
+      213: -3056824172802873173
+    second: dotaheroes_263
+  - first:
+      213: 4265640501478907541
+    second: dotaheroes_264
+  - first:
+      213: 7654689511927500658
+    second: dotaheroes_265
+  - first:
+      213: 5823930869657431875
+    second: dotaheroes_266
+  - first:
+      213: -9126014565685241553
+    second: dotaheroes_267
+  - first:
+      213: 107964184406505216
+    second: dotaheroes_268
+  - first:
+      213: -2808521969720944887
+    second: dotaheroes_269
+  - first:
+      213: 5649107675705341285
+    second: dotaheroes_270
+  - first:
+      213: -8098059938957699554
+    second: dotaheroes_271
+  - first:
+      213: -6402478633569798337
+    second: dotaheroes_272
+  - first:
+      213: -8215738480784199062
+    second: dotaheroes_273
+  - first:
+      213: 3350339319820382484
+    second: dotaheroes_274
+  - first:
+      213: 1429649212808585699
+    second: dotaheroes_275
+  - first:
+      213: 2532342170484214892
+    second: dotaheroes_276
+  - first:
+      213: -4928244025874455982
+    second: dotaheroes_277
+  - first:
+      213: 3857982997172899852
+    second: dotaheroes_278
+  - first:
+      213: 5578098397405322114
+    second: dotaheroes_279
+  - first:
+      213: 601655799400970282
+    second: dotaheroes_280
+  - first:
+      213: 982848608917955182
+    second: dotaheroes_281
+  - first:
+      213: -5060163193336604989
+    second: dotaheroes_282
+  - first:
+      213: -6869750262249120488
+    second: dotaheroes_283
+  - first:
+      213: -2088762633375798658
+    second: dotaheroes_284
+  - first:
+      213: 2842820569717269277
+    second: dotaheroes_285
+  - first:
+      213: 320883863196306604
+    second: dotaheroes_286
+  - first:
+      213: 135934918563323309
+    second: dotaheroes_287
+  - first:
+      213: 2129119252336171161
+    second: dotaheroes_288
+  - first:
+      213: -6414883867458283159
+    second: dotaheroes_289
+  - first:
+      213: 6610906018249975954
+    second: dotaheroes_290
+  - first:
+      213: 4426515777479697071
+    second: dotaheroes_291
+  - first:
+      213: -7078961390769990929
+    second: dotaheroes_292
+  - first:
+      213: 7456052638862282355
+    second: dotaheroes_293
+  - first:
+      213: 8827608481202418047
+    second: dotaheroes_294
+  - first:
+      213: -7422653352464664321
+    second: dotaheroes_295
+  - first:
+      213: -8069743132248025226
+    second: dotaheroes_296
+  - first:
+      213: -7660712932819658901
+    second: dotaheroes_297
+  - first:
+      213: -1760956240297816971
+    second: dotaheroes_298
+  - first:
+      213: 594069845347723508
+    second: dotaheroes_299
+  - first:
+      213: -2931360643460723570
+    second: dotaheroes_300
+  - first:
+      213: 8934161769258817760
+    second: dotaheroes_301
+  - first:
+      213: 8577083337193497828
+    second: dotaheroes_302
+  - first:
+      213: -3137175233486667082
+    second: dotaheroes_303
+  - first:
+      213: 8126408683455050447
+    second: dotaheroes_304
+  - first:
+      213: -2852508620106664151
+    second: dotaheroes_305
+  - first:
+      213: 6642383989933121638
+    second: dotaheroes_306
+  - first:
+      213: 8665644707595300794
+    second: dotaheroes_307
+  - first:
+      213: 7287106032076877594
+    second: dotaheroes_308
+  - first:
+      213: -4747091465743697260
+    second: dotaheroes_309
+  - first:
+      213: -4518468243696561754
+    second: dotaheroes_310
+  - first:
+      213: -8305994342183537395
+    second: dotaheroes_311
+  - first:
+      213: -9052864474719527995
+    second: dotaheroes_312
+  - first:
+      213: -1025255518872206181
+    second: dotaheroes_313
+  - first:
+      213: -600084909831634768
+    second: dotaheroes_314
+  - first:
+      213: 7171073158471254474
+    second: dotaheroes_315
+  - first:
+      213: 4515048640926269651
+    second: dotaheroes_316
+  - first:
+      213: 8622335245025215454
+    second: dotaheroes_317
+  - first:
+      213: -5652159641462735647
+    second: dotaheroes_318
+  - first:
+      213: -1874751201562645245
+    second: dotaheroes_319
+  - first:
+      213: 3748492436708253517
+    second: dotaheroes_320
+  - first:
+      213: -8620404337646859018
+    second: dotaheroes_321
+  - first:
+      213: -2144448561491942221
+    second: dotaheroes_322
+  - first:
+      213: -1461102614596784725
+    second: dotaheroes_323
+  - first:
+      213: -7678348026771706738
+    second: dotaheroes_324
+  - first:
+      213: -2130629212031796272
+    second: dotaheroes_325
+  - first:
+      213: 8569788648523696520
+    second: dotaheroes_326
+  - first:
+      213: -6954007594926773626
+    second: dotaheroes_327
+  - first:
+      213: 8644602426038588246
+    second: dotaheroes_328
+  - first:
+      213: 5532108855098100145
+    second: dotaheroes_329
+  - first:
+      213: -5983378892995165183
+    second: dotaheroes_330
+  - first:
+      213: -9074077369793583016
+    second: dotaheroes_331
+  - first:
+      213: -7775404511420969120
+    second: dotaheroes_332
+  - first:
+      213: -6606584365195803290
+    second: dotaheroes_333
+  - first:
+      213: 144202961348148678
+    second: dotaheroes_334
+  - first:
+      213: 1608307743564399043
+    second: dotaheroes_335
+  - first:
+      213: -5494258405510967559
+    second: dotaheroes_336
+  - first:
+      213: -7853711242358455291
+    second: dotaheroes_337
+  - first:
+      213: -3650162150753262786
+    second: dotaheroes_338
+  - first:
+      213: 4627905429217663283
+    second: dotaheroes_339
+  - first:
+      213: 8694786151621964520
+    second: dotaheroes_340
+  - first:
+      213: 6890465555157733070
+    second: dotaheroes_341
+  - first:
+      213: -8913880232152571727
+    second: dotaheroes_342
+  - first:
+      213: 1843662011760845875
+    second: dotaheroes_343
+  - first:
+      213: 970783013448946889
+    second: dotaheroes_344
+  - first:
+      213: 3526023829099722133
+    second: dotaheroes_345
+  - first:
+      213: -7394826934974181491
+    second: dotaheroes_346
+  - first:
+      213: -7016342017625566408
+    second: dotaheroes_347
+  - first:
+      213: -3917822668080176373
+    second: dotaheroes_348
+  - first:
+      213: -6499276443146806047
+    second: dotaheroes_349
+  - first:
+      213: 7061087120675177354
+    second: dotaheroes_350
+  - first:
+      213: 8223005303360871139
+    second: dotaheroes_351
+  - first:
+      213: 45664370124921039
+    second: dotaheroes_352
+  - first:
+      213: -3070883122354874513
+    second: dotaheroes_353
+  - first:
+      213: 5875520436802592922
+    second: dotaheroes_354
+  - first:
+      213: 4752043710500746756
+    second: dotaheroes_355
+  - first:
+      213: -279337104651263162
+    second: dotaheroes_356
+  - first:
+      213: 3986326015595742096
+    second: dotaheroes_357
+  - first:
+      213: -8586716767719683830
+    second: dotaheroes_358
+  - first:
+      213: 21304982708473998
+    second: dotaheroes_359
+  - first:
+      213: -1339194121970245104
+    second: dotaheroes_360
+  - first:
+      213: -1122631103046057320
+    second: dotaheroes_361
+  - first:
+      213: 727013296928493012
+    second: dotaheroes_362
+  - first:
+      213: -5579472979229834427
+    second: dotaheroes_363
+  - first:
+      213: 8406596752829430521
+    second: dotaheroes_364
+  - first:
+      213: -4242559035230343577
+    second: dotaheroes_365
+  - first:
+      213: 5439408056575188993
+    second: dotaheroes_366
+  - first:
+      213: -4245580924181286211
+    second: dotaheroes_367
+  - first:
+      213: 4940905552302687256
+    second: dotaheroes_368
+  - first:
+      213: -1699264103612493947
+    second: dotaheroes_369
+  - first:
+      213: -6091127487148268452
+    second: dotaheroes_370
+  - first:
+      213: 5058772077051656654
+    second: dotaheroes_371
+  - first:
+      213: -8391790017765545362
+    second: dotaheroes_372
+  - first:
+      213: 4844727712039648540
+    second: dotaheroes_373
+  - first:
+      213: 23250128702372795
+    second: dotaheroes_374
+  - first:
+      213: 3723517261994456479
+    second: dotaheroes_375
+  - first:
+      213: -3270577683325352680
+    second: dotaheroes_376
+  - first:
+      213: -5272913160411491622
+    second: dotaheroes_377
+  - first:
+      213: -1623214717651264
+    second: dotaheroes_378
+  - first:
+      213: 2889722432057692002
+    second: dotaheroes_379
+  - first:
+      213: -5670447115062004825
+    second: dotaheroes_380
+  - first:
+      213: 4519557391284200585
+    second: dotaheroes_381
+  - first:
+      213: -1006454250703968431
+    second: dotaheroes_382
+  - first:
+      213: 1188401151589953785
+    second: dotaheroes_383
+  - first:
+      213: 580838652592145078
+    second: dotaheroes_384
+  - first:
+      213: -7828571856310822790
+    second: dotaheroes_385
+  - first:
+      213: 7008778282386997665
+    second: dotaheroes_386
+  - first:
+      213: -6381985057251260153
+    second: dotaheroes_387
+  - first:
+      213: 6300296991648225418
+    second: dotaheroes_388
+  - first:
+      213: -5349680699511776004
+    second: dotaheroes_389
+  - first:
+      213: -9160192624019210602
+    second: dotaheroes_390
+  - first:
+      213: -5306161350774702695
+    second: dotaheroes_391
+  - first:
+      213: 5702170225558913691
+    second: dotaheroes_392
+  - first:
+      213: -4049445584185498841
+    second: dotaheroes_393
+  - first:
+      213: -873780342933442838
+    second: dotaheroes_394
+  - first:
+      213: -1677712782152876127
+    second: dotaheroes_395
+  - first:
+      213: -497056912958743471
+    second: dotaheroes_396
+  - first:
+      213: 1323653365591857695
+    second: dotaheroes_397
+  - first:
+      213: 49274062592953136
+    second: dotaheroes_398
+  - first:
+      213: 9011889044631960584
+    second: dotaheroes_399
+  - first:
+      213: -4358589271902504328
+    second: dotaheroes_400
+  - first:
+      213: 915611439995503473
+    second: dotaheroes_401
+  - first:
+      213: 4452122523386752172
+    second: dotaheroes_402
+  - first:
+      213: 7109982323563251497
+    second: dotaheroes_403
+  - first:
+      213: 6925169086340712198
+    second: dotaheroes_404
+  - first:
+      213: 3334286122435375424
+    second: dotaheroes_405
+  - first:
+      213: 5337313502066612848
+    second: dotaheroes_406
+  - first:
+      213: 1566328396868725415
+    second: dotaheroes_407
+  - first:
+      213: 4397927178787832644
+    second: dotaheroes_408
+  - first:
+      213: -6489993684642140746
+    second: dotaheroes_409
+  - first:
+      213: 6904341327368613326
+    second: dotaheroes_410
+  - first:
+      213: 3142923622635251113
+    second: dotaheroes_411
+  - first:
+      213: 4505429346429218732
+    second: dotaheroes_412
+  - first:
+      213: -7853711997977015212
+    second: dotaheroes_413
+  - first:
+      213: 4757143737582661547
+    second: dotaheroes_414
+  - first:
+      213: 4964958716165567622
+    second: dotaheroes_415
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dotaheroes_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a32e465fa4fefdf0800000000000000
+      internalID: -144409104124861535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 900
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8f57036feff9b40800000000000000
+      internalID: 5449354407470037156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 900
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd02fa5d8a4bde70800000000000000
+      internalID: 9140981839655210451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 900
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9aaeaf07f06aa40800000000000000
+      internalID: 5379003782861072812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 900
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35f5a615308f1730800000000000000
+      internalID: 3972034361865663802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 900
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad8bdb3de859db20800000000000000
+      internalID: 3159654389511851432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0458a45b93837a730800000000000000
+      internalID: 4010235813702567232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 750
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28d63025adfdfaa0800000000000000
+      internalID: -6125461032502110161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_8
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 750
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde3a4ab6d3340bb0800000000000000
+      internalID: -4970791091368739108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_9
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 750
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026b0a366b31d2fe0800000000000000
+      internalID: -1212291050616343008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 750
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61a6c543cb951250800000000000000
+      internalID: 5914804948612587883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_11
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 750
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7c837cf3942afe0800000000000000
+      internalID: -1179299614143494194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f15f540ce9ab790800000000000000
+      internalID: -7513518479669649632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 600
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0079d523ad72eece0800000000000000
+      internalID: -1374117018200074496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_14
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0b66a0af53d9380800000000000000
+      internalID: -8962948335364820763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_15
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 600
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22162b278b38ec0b0800000000000000
+      internalID: -5706478849610325726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 600
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b512e826a289c9a0800000000000000
+      internalID: -6212290560818801226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_17
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 600
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f2f4724fd2fc720800000000000000
+      internalID: 2868562014313066285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b0521085aecc870800000000000000
+      internalID: 8704589843497552753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_19
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 450
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ba3e2ed77da0030800000000000000
+      internalID: 3461816199265102649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_20
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 450
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f874a90fd9b67510800000000000000
+      internalID: 1546627889638963445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_21
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 450
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e78ab2505d9f9460800000000000000
+      internalID: 7250686893400688608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_22
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 450
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6da756f846d4290800000000000000
+      internalID: -7904551203919702328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_23
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 450
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceb7864330890bb0800000000000000
+      internalID: -4969299756111642944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581a99f27e719b2c0800000000000000
+      internalID: -4415471677956578939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 300
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2fc04ddef6e3d20800000000000000
+      internalID: 3260166247518368483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafed7c1f4eeaa3c0800000000000000
+      internalID: -4347400466724950098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_27
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 300
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf0dba0b4693bbf0800000000000000
+      internalID: -309738700311556131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 300
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fad03aad6d305b0800000000000000
+      internalID: -5403238893387665579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_29
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 300
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f3dae39f5509d50800000000000000
+      internalID: 6741983171160391440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4560fe935080e9cb0800000000000000
+      internalID: -4855434529718991276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_31
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 150
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d85068404bf00130800000000000000
+      internalID: 3531098361369221336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_32
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 150
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca9cfaeef083a150800000000000000
+      internalID: 5882687370628471490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_33
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 150
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5868c5291cd64d620800000000000000
+      internalID: 2797981946655573637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 150
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c601e1a5cc5e0e450800000000000000
+      internalID: 6116140959817142380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_35
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 150
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0ef3e9a92227f70800000000000000
+      internalID: 9183440637637157031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3613df44ae973ae0800000000000000
+      internalID: -1569611516564269510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfdbff1356172320800000000000000
+      internalID: 2533017861693890519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_38
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf917fa520afb50d0800000000000000
+      internalID: -3432875402916849157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_39
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c1182e44e8f0730800000000000000
+      internalID: 3967546223245728880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_40
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7de55e6f18776a50800000000000000
+      internalID: 6514307462405156223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotaheroes_41
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d98f9ded326a0f00800000000000000
+      internalID: 1083786678455208407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
