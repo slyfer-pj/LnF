@@ -10,50 +10,49 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
-  m_Name: DialogueSet-A3
+  m_Name: DialogueSet-A4
   m_EditorClassIdentifier: 
   participatingCharacters:
-  - Trireme
   - Dee
+  - Kyo
   container:
-  - entityName: Trireme
-    dialogueSaid: Oh, wow! You really are the famous Dee!
-    clueUnlockIfAny:
-      charName: Trireme
-      clueIndex: 0
   - entityName: Dee
-    dialogueSaid: ...yes.
+    dialogueSaid: ...
     clueUnlockIfAny:
       charName: 
       clueIndex: 0
-  - entityName: Trireme
-    dialogueSaid: I heard you have a big concert coming up!
+  - entityName: Kyo
+    dialogueSaid: ...
     clueUnlockIfAny:
       charName: 
       clueIndex: 0
   - entityName: Dee
-    dialogueSaid: That's right.
+    dialogueSaid: ...
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kyo
+    dialogueSaid: Where do you get your guitar strings made?
     clueUnlockIfAny:
       charName: Dee
-      clueIndex: 2
-  - entityName: Trireme
-    dialogueSaid: Your shows must be exciting! You should play here one night! You
-      know, for us regular folks.
+      clueIndex: 3
+  - entityName: Dee
+    dialogueSaid: I have a smith in the south.
     clueUnlockIfAny:
-      charName: Trireme
+      charName: Dee
+      clueIndex: 4
+  - entityName: Kyo
+    dialogueSaid: Do they do larger cables?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Dee
+    dialogueSaid: Yes.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kyo
+    dialogueSaid: Great.
+    clueUnlockIfAny:
+      charName: Kyo
       clueIndex: 1
-  - entityName: Dee
-    dialogueSaid: I might.
-    clueUnlockIfAny:
-      charName: 
-      clueIndex: 0
-  - entityName: Trireme
-    dialogueSaid: ...you know, for a performer, you're pretty quiet in person.
-    clueUnlockIfAny:
-      charName: Trireme
-      clueIndex: 2
-  - entityName: Dee
-    dialogueSaid: Sorry...
-    clueUnlockIfAny:
-      charName: 
-      clueIndex: 0

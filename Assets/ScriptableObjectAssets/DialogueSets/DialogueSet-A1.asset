@@ -13,47 +13,43 @@ MonoBehaviour:
   m_Name: DialogueSet-A1
   m_EditorClassIdentifier: 
   participatingCharacters:
-  - Apparition
-  - AntiMage
+  - Dee
+  - Garragin
   container:
-  - entityName: Apparition
-    dialogueSaid: ... Garragin, did you get a haircut?
+  - entityName: Dee
+    dialogueSaid: I like your feather.
     clueUnlockIfAny:
-      charName: Chen
+      charName: Dee
       clueIndex: 0
-  - entityName: AntiMage
-    dialogueSaid: Huh? No- oh... just a little-
+  - entityName: Garragin
+    dialogueSaid: Hey, thanks! I like your feathers too. Where'd you get that cool
+      shirt from?
     clueUnlockIfAny:
-      charName: 
+      charName: Garragin
       clueIndex: 0
-  - entityName: Apparition
-    dialogueSaid: And those little black tips? What did you do? Set it on fire?
+  - entityName: Dee
+    dialogueSaid: It was made for me by a tailor in the east.
     clueUnlockIfAny:
-      charName: 
-      clueIndex: 0
-  - entityName: AntiMage
-    dialogueSaid: ...
-    clueUnlockIfAny:
-      charName: Axe
+      charName: Dee
       clueIndex: 1
-  - entityName: Apparition
-    dialogueSaid: don't tell me your girfriend did that to you! You'd think she'd
-      be better with her hands-
+  - entityName: Garragin
+    dialogueSaid: Maybe I should get one too. Think I could pull off the look?
     clueUnlockIfAny:
       charName: 
       clueIndex: 0
-  - entityName: AntiMage
-    dialogueSaid: '!!!'
+  - entityName: Dee
+    dialogueSaid: If you wanted to.
     clueUnlockIfAny:
-      charName: 
-      clueIndex: 0
-  - entityName: Apparition
-    dialogueSaid: Considering her handwriting is so neat!
+      charName: Dee
+      clueIndex: 1
+  - entityName: Garragin
+    dialogueSaid: That's the spirit! You can do anything if you believe you can!
+      We just got back from out east, but I'll put in an order next time.
     clueUnlockIfAny:
-      charName: 
-      clueIndex: 0
-  - entityName: AntiMage
-    dialogueSaid: ...
+      charName: Garragin
+      clueIndex: 1
+  - entityName: Dee
+    dialogueSaid: I think... that would look nice.
     clueUnlockIfAny:
       charName: 
       clueIndex: 0

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: DialogueSet-B2
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Kyo
+  container:
+  - entityName: Kyo
+    dialogueSaid: "There sure are a lot of nobles here all of a sudden. I'm guessing
+      it has something to do with the royal wedding.\r All of this peacocking really
+      takes me back to my old life in high society. I'm glad I left that behind."
+    clueUnlockIfAny:
+      charName: Kyo
+      clueIndex: 1
+  - entityName: Kyo
+    dialogueSaid: "Though... recently my partner acquired a formal outfit and...
+      I am surprised at how... compelling it is.\r"
+    clueUnlockIfAny:
+      charName: Kyo
+      clueIndex: 2
+  - entityName: Kyo
+    dialogueSaid: You... shouldn't repeat that... to anyone.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kyo
+    dialogueSaid: ...and no more beer for me today.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0

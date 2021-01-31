@@ -13,45 +13,100 @@ MonoBehaviour:
   m_Name: CharacterData
   m_EditorClassIdentifier: 
   allCharactersData:
-  - charName: Apparition
-    portraitSprite: {fileID: -144409104124861535, guid: 50272cc5481b6d0419b16891bc3096dc,
-      type: 3}
-    clueArray:
-    - ap 1
-    - ap2
-    - ap3
-  - charName: AntiMage
-    portraitSprite: {fileID: 5449354407470037156, guid: 50272cc5481b6d0419b16891bc3096dc,
-      type: 3}
-    clueArray:
-    - am 1
-    - am 2
-    - am 3
-  - charName: Axe
+  - charName: Dee
     portraitSprite: {fileID: 9140981839655210451, guid: 50272cc5481b6d0419b16891bc3096dc,
       type: 3}
     clueArray:
-    - axe 1
-    - axe 2
-    - axe 3
-  - charName: Beastmaster
+    - Likes feathers
+    - Has clothes made from the east
+    - Has a big concert coming up
+    - Plays the guitar
+    - Has his guitar strings specially made
+    positiveResponse: {fileID: 0}
+    negativeResponse: {fileID: 0}
+  - charName: Garragin
+    portraitSprite: {fileID: 5449354407470037156, guid: 50272cc5481b6d0419b16891bc3096dc,
+      type: 3}
+    clueArray:
+    - Likes feathers
+    - Just came back from the east
+    - Has mixed up her potions and poisons in the past, and has maybe learned her
+      lesson
+    - Kyo's plans tend to use simple tools effectively
+    positiveResponse: {fileID: 0}
+    negativeResponse: {fileID: 0}
+  - charName: Elrokris
+    portraitSprite: {fileID: 9140981839655210451, guid: 50272cc5481b6d0419b16891bc3096dc,
+      type: 3}
+    clueArray:
+    - Is travelling with someone who is attending the royal wedding
+    - Is attending the royal wedding himself
+    - Gifted his travelling companion a pair of gloves
+    - Does not label his potions
+    - There are life-life constructs fashioned in the west
+    - A living construct may have found its way to port here
+    - Wants to take apart and study a living construct
+    - Constructs are hollow inside
+    positiveResponse: {fileID: 0}
+    negativeResponse: {fileID: 0}
+  - charName: Trireme
     portraitSprite: {fileID: 5379003782861072812, guid: 50272cc5481b6d0419b16891bc3096dc,
       type: 3}
     clueArray:
-    - bm 1
-    - bm 2
-    - bm 3
-  - charName: Chen
+    - Dee is famous
+    - Dee's concerts are usually exciting
+    - Dee is a quiet person
+    - Did not commit the chocolate heist
+    - Insists on clearly labeling her potions
+    - Thinks constructs would be great for smuggling
+    positiveResponse: {fileID: 0}
+    negativeResponse: {fileID: 0}
+  - charName: Kyo
     portraitSprite: {fileID: 3972034361865663802, guid: 50272cc5481b6d0419b16891bc3096dc,
       type: 3}
     clueArray:
-    - cn 1
-    - cn 2
-    - cn 3
-  - charName: Clockwerk
+    - Wants to get a metal cable made
+    - Used to be part of noble society
+    - Kyo's partner looks good in formal wear
+    - Is a quartermaster on her ship
+    - Is looking to make a zipline
+    - Needs an escape route from... somewhere?
+    positiveResponse: {fileID: 0}
+    negativeResponse: {fileID: 0}
+  - charName: Hakara
     portraitSprite: {fileID: 3159654389511851432, guid: 50272cc5481b6d0419b16891bc3096dc,
       type: 3}
     clueArray:
-    - cw 1
-    - cw 2
-    - cw 3
+    - Garragin's hair seems to have been a bit...destroyed
+    - Garragin's girlfriend has neat handwriting
+    - Is concerned about someone's comfort
+    - Seems uncomfrotable with talk of taking constructs apart
+    - Kyo is a planner
+    - Kyo and Garragin are close
+    positiveResponse: {fileID: 0}
+    negativeResponse: {fileID: 0}
+  - charName: Vinny
+    portraitSprite: {fileID: 3159654389511851432, guid: 50272cc5481b6d0419b16891bc3096dc,
+      type: 3}
+    clueArray:
+    - There is artisinal chocolate from the east that is worth more than the gold
+      it is wrapped in
+    - A renowned artisan chocolate store from the east was raided and burnt down
+    - Thinks nobles want a lot of pillows for their comfort
+    - Thinks Hakara is hardier than most people
+    - Kyo seems to have rope burns on her hands
+    - Kyo has nice handwriting
+    - Kyo is not used to manual work
+    - Knows how to tie knots well
+    positiveResponse: {fileID: 0}
+    negativeResponse: {fileID: 0}
+  - charName: Kit
+    portraitSprite: {fileID: 3159654389511851432, guid: 50272cc5481b6d0419b16891bc3096dc,
+      type: 3}
+    clueArray:
+    - Likes Elrokris' travelling companion's style
+    - Hakara makes squeaky noises as they walk
+    - Hakara does not wear armour
+    - Kyo has no sense for the dramatic
+    positiveResponse: {fileID: 0}
+    negativeResponse: {fileID: 0}

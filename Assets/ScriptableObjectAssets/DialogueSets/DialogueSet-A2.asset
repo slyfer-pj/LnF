@@ -13,37 +13,39 @@ MonoBehaviour:
   m_Name: DialogueSet-A2
   m_EditorClassIdentifier: 
   participatingCharacters:
-  - Axe
-  - Chen
+  - Elrokris
+  - Kit
   container:
-  - entityName: Axe
-    dialogueSaid: ... Garragin, did you get a haircut?
-    clueUnlockIfAny:
-      charName: Chen
-      clueIndex: 2
-  - entityName: Chen
-    dialogueSaid: Huh? No- oh... just a little-
-    clueUnlockIfAny:
-      charName: AntiMage
-      clueIndex: 0
-  - entityName: Axe
-    dialogueSaid: And those little black tips? What did you do? Set it on fire?
+  - entityName: Elrokris
+    dialogueSaid: '*muttering* You''d think that boy would dress differently for
+      a royal wedding.'
     clueUnlockIfAny:
       charName: 
       clueIndex: 0
-  - entityName: Chen
+  - entityName: Kit
+    dialogueSaid: Huh? That guy over there?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: Yes. No matter, I'm sure he'll be fine beside me benefiting from
+      my own credibility.
+    clueUnlockIfAny:
+      charName: Elrokris
+      clueIndex: 1
+  - entityName: Kit
+    dialogueSaid: I 'unno. I like his taste.
+    clueUnlockIfAny:
+      charName: Kit
+      clueIndex: 0
+  - entityName: Elrokris
     dialogueSaid: ...
     clueUnlockIfAny:
       charName: 
       clueIndex: 0
-  - entityName: Axe
-    dialogueSaid: don't tell me your girfriend did that to you! You'd think she'd
-      be better with her hands-
+  - entityName: Elrokris
+    dialogueSaid: To each their own, I suppose. Though he had better at least wear
+      the gloves I gave him.
     clueUnlockIfAny:
-      charName: 
-      clueIndex: 0
-  - entityName: Chen
-    dialogueSaid: '!!!'
-    clueUnlockIfAny:
-      charName: 
-      clueIndex: 0
+      charName: Elrokris
+      clueIndex: 2

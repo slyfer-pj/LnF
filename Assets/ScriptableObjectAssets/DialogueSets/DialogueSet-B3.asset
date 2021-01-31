@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: DialogueSet-B3
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Vinny
+  - Trireme
+  container:
+  - entityName: Vinny
+    dialogueSaid: 'Vinny: Ah, barkeep! We were just discussing the recent wild caper
+      in the east! The Sawies Chocolatarie was robbed!'
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: 
+    dialogueSaid: "A waste of time, if ye ask me, but that stuff is apparently as
+      expensive as the gold it's wrapped in. I wonder who'd be fancy enough to eat
+      that sorta thing.\r"
+    clueUnlockIfAny:
+      charName: Vinny
+      clueIndex: 1
+  - entityName: Trireme
+    dialogueSaid: "Maybe we should go check that place out ourselves, huh?\r"
+    clueUnlockIfAny:
+      charName: Trireme
+      clueIndex: 3
+  - entityName: Vinny
+    dialogueSaid: No luck. The storehouse was torched down. I don't know if the thieves
+      did it on purpose or not, but sounds like that's one boat we missed.
+    clueUnlockIfAny:
+      charName: Vinny
+      clueIndex: 1
