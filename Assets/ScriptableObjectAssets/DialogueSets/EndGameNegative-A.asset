@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: EndGameNegative-A
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Kit
+  - Elrokris
+  - Trireme
+  container:
+  - entityName: Trireme
+    dialogueSaid: I can't believe I'm saying this, but I heard Dee put on an... odd
+      concert.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: He had one job...
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: I 'unno! Air-guitaring sounds like a fun time. What's a bard doing
+      without his strings, though?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: Either way, the point was to be a distraction.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: ...and how did that work out?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0

@@ -32,6 +32,10 @@ MonoBehaviour:
     successDialogueSet: {fileID: 11400000, guid: 6fb40548ba9d958418505264be9ae83c,
       type: 2}
     failDialogueSet: {fileID: 11400000, guid: dd1bed17a7ba3864bac70f9dea96f4f9, type: 2}
+    endGameSuccessDialogueSet: {fileID: 11400000, guid: cbbd34c44a0b4fd44850ad5cf3e1c6e9,
+      type: 2}
+    endGameFailDialogueSet: {fileID: 11400000, guid: 4c8e84b7b7a51774f8f8d229da758b30,
+      type: 2}
   - objectName: B
     objectSprite: {fileID: 21300000, guid: 25651932d5ae61d4987f345fdbf9a45f, type: 3}
     objectDescription: Bag
@@ -58,6 +62,10 @@ MonoBehaviour:
     successDialogueSet: {fileID: 11400000, guid: 11e143e1442cc4d43aecec40735e8446,
       type: 2}
     failDialogueSet: {fileID: 11400000, guid: 030f9511c649fc247afc5f939f31a184, type: 2}
+    endGameSuccessDialogueSet: {fileID: 11400000, guid: d7de67863d006bf4f8ab52ba1928473c,
+      type: 2}
+    endGameFailDialogueSet: {fileID: 11400000, guid: a28c27231be122248b8ff6af8c87fea5,
+      type: 2}
   - objectName: C
     objectSprite: {fileID: 21300000, guid: edf6983eceede3b42b0d355baa522bd0, type: 3}
     objectDescription: Box
@@ -78,6 +86,10 @@ MonoBehaviour:
     successDialogueSet: {fileID: 11400000, guid: 065d61a81dd0d404bb6ae50c80a26aac,
       type: 2}
     failDialogueSet: {fileID: 11400000, guid: 8b76856b45412f34d82d184d5868216f, type: 2}
+    endGameSuccessDialogueSet: {fileID: 11400000, guid: 0219e3e489191a148b219ae088e71dd7,
+      type: 2}
+    endGameFailDialogueSet: {fileID: 11400000, guid: 510b182b6a4205b43a644b69292de9c8,
+      type: 2}
   - objectName: D
     objectSprite: {fileID: 21300000, guid: 911ea2749269e864397e6c4a5273d5f3, type: 3}
     objectDescription: Sword
@@ -94,3 +106,7 @@ MonoBehaviour:
     successDialogueSet: {fileID: 11400000, guid: 19b0a335b308dda41ac0ef0b28aa2b9e,
       type: 2}
     failDialogueSet: {fileID: 11400000, guid: 7eb9472c44f81034fa497827f9087e52, type: 2}
+    endGameSuccessDialogueSet: {fileID: 11400000, guid: d7f6486c6bf87354aa09c3bfd4e14553,
+      type: 2}
+    endGameFailDialogueSet: {fileID: 11400000, guid: 32b93ef1e2ca25e428c35aced31f9afe,
+      type: 2}

@@ -8,21 +8,32 @@ public class GetObjectData : MonoBehaviour
 {
     [SerializeField] private LostObjectData lostObjData;
     [SerializeField] private GameObject objPrefab;
-    [SerializeField] private Transform objHolder;
+    [SerializeField] public Transform objHolder;
     [SerializeField] private TextMeshProUGUI notification;
     public InspectObject inspectObjectScreen;
     [HideInInspector] public AllObjectSaveData objSaveData;
+    [SerializeField] public TextMeshProUGUI firstTimeOnly;
 
 
-    private void Start()
+    private void Awake()
     {
         GetSaveData();
+        
+        if(!PlayerPrefs.HasKey("FirstTimeOnly"))
+        {
+            firstTimeOnly.gameObject.SetActive(true);
+            PlayerPrefs.SetInt("FirstTimeOnly", 1);
+        }
+    }
+
+    private void OnEnable()
+    {
         PopulateObjectsOnScreen();
     }
 
     private void PopulateObjectsOnScreen()
     {
-        for(int i=0; i<objSaveData.saveData.Length; i++)
+        for(int i=objHolder.childCount; i<objSaveData.saveData.Length; i++)
         {
             if(objSaveData.saveData[i].hasBeenDiscovered)
             {

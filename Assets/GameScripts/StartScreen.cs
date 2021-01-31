@@ -7,6 +7,7 @@ public class StartScreen : MonoBehaviour
 {
     public void OnClickReset()
     {
+        PlayerPrefs.DeleteAll();
         FileOps.DeleteFile(GameConstants.DATA_CHARACTERDATA_FILEPATH);
         FileOps.DeleteFile(GameConstants.DATA_OBJECTSDATA_FILEPATH);
         SceneManager.LoadScene(0);

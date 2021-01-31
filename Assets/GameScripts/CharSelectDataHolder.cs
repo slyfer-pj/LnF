@@ -15,5 +15,6 @@ public class CharSelectDataHolder : MonoBehaviour
     public void OnClickCharacter()
     {
         inspectObject.CharacterResponse(charName);
+        inspectObject.RemoveBag();
     }
 }

@@ -19,6 +19,8 @@ public class ObjectData
     public string correctOwnerName;
     public DialogueData successDialogueSet;
     public DialogueData failDialogueSet;
+    public DialogueData endGameSuccessDialogueSet;
+    public DialogueData endGameFailDialogueSet;
 }
 
 [System.Serializable]

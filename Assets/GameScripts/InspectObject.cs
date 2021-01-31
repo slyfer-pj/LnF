@@ -18,8 +18,10 @@ public class InspectObject : MonoBehaviour
     [SerializeField] private GameObject returnScreen;
     [SerializeField] private LostObjectData objData;
     [SerializeField] private GameObject thanksForPlaying;
+    [SerializeField] private DialogueData superEndGame;
 
     public ObjectData InspectedObjData { get; set; }
+    public int SiblingIndex { get; set; }
 
     private List<string> characterSelectArray = new List<string>();
 
@@ -136,7 +138,15 @@ public class InspectObject : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
         }
 
+        EndGameDialogueInteractionDone = false;
+        dialogueDisplay.CurrentDialogueSet = superEndGame;
+        dialogueDisplay.gameObject.SetActive(true);
+
+        while (!EndGameDialogueInteractionDone)
+            yield return null;
+
         thanksForPlaying.SetActive(true);
+
     }
 
     public DialogueData GetDialogueSet(string name, bool positive)
@@ -146,12 +156,19 @@ public class InspectObject : MonoBehaviour
             if(name.Equals(dat.objectName))
             {
                 if (positive)
-                    return dat.successDialogueSet;
+                    return dat.endGameSuccessDialogueSet;
                 else
-                    return dat.failDialogueSet;
+                    return dat.endGameFailDialogueSet;
             }
         }
         return null;
+    }
+
+    public void RemoveBag()
+    {
+        gameObject.SetActive(false);
+        getObjectData.gameObject.SetActive(false);
+        getObjectData.objHolder.GetChild(SiblingIndex).GetComponent<Selectable>().interactable = false;
     }
 
 }

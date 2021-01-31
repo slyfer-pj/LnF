@@ -22,8 +22,6 @@ MonoBehaviour:
     - Has a big concert coming up
     - Plays the guitar
     - Has his guitar strings specially made
-    positiveResponse: {fileID: 11400000, guid: 6fb40548ba9d958418505264be9ae83c, type: 2}
-    negativeResponse: {fileID: 11400000, guid: dd1bed17a7ba3864bac70f9dea96f4f9, type: 2}
   - charName: Garragin
     iconSprite: {fileID: 21300000, guid: 7f71fb9aace3d3b47aac649a03dccd47, type: 3}
     portraitSprite: {fileID: 21300000, guid: 46c4ed2b4873b6d4ba8d037dffd6375f, type: 3}
@@ -33,8 +31,6 @@ MonoBehaviour:
     - Has mixed up her potions and poisons in the past, and has maybe learned her
       lesson
     - Kyo's plans tend to use simple tools effectively
-    positiveResponse: {fileID: 11400000, guid: 11e143e1442cc4d43aecec40735e8446, type: 2}
-    negativeResponse: {fileID: 11400000, guid: 030f9511c649fc247afc5f939f31a184, type: 2}
   - charName: Elrokris
     iconSprite: {fileID: 21300000, guid: b858c504e059bc24c90ae9fbbc6c8819, type: 3}
     portraitSprite: {fileID: 21300000, guid: 98552fd405170ce42bd836982710e17b, type: 3}
@@ -48,8 +44,6 @@ MonoBehaviour:
     - Would be interested in studying a living construct
     - Wants to take apart a living construct
     - Constructs are hollow inside
-    positiveResponse: {fileID: 0}
-    negativeResponse: {fileID: 0}
   - charName: Trireme
     iconSprite: {fileID: 21300000, guid: a8c13afe55a6a314d97a20fcb761b1e7, type: 3}
     portraitSprite: {fileID: 21300000, guid: 7501607608ae4c441bb1515b09a733f4, type: 3}
@@ -60,8 +54,6 @@ MonoBehaviour:
     - Did not commit the chocolate heist
     - Insists on clearly labeling her potions
     - Thinks constructs would be great for smuggling
-    positiveResponse: {fileID: 0}
-    negativeResponse: {fileID: 0}
   - charName: Kyo
     iconSprite: {fileID: 21300000, guid: 1fbe44473439b8349b529582056b375f, type: 3}
     portraitSprite: {fileID: 21300000, guid: 8f4298ba6537dd641bb8f4e7d9ab95b9, type: 3}
@@ -72,8 +64,6 @@ MonoBehaviour:
     - Is a quartermaster on her ship
     - Is looking to make a zipline
     - Needs an escape route from... somewhere?
-    positiveResponse: {fileID: 11400000, guid: 065d61a81dd0d404bb6ae50c80a26aac, type: 2}
-    negativeResponse: {fileID: 11400000, guid: 8b76856b45412f34d82d184d5868216f, type: 2}
   - charName: Hakara
     iconSprite: {fileID: 21300000, guid: 92e171af13493af43b4ebc930c2dedba, type: 3}
     portraitSprite: {fileID: 21300000, guid: 25ffb90d5a13e4643a21e5b8a7fb0123, type: 3}
@@ -81,10 +71,8 @@ MonoBehaviour:
     - Garragin's hair seems to have been a bit...destroyed
     - Garragin's girlfriend has neat handwriting
     - Is concerned about someone's comfort
-    - Seems uncomfrotable with talk of taking constructs apart
+    - Seems uncomfortable with talk of taking constructs apart
     - Kyo and Garragin are close
-    positiveResponse: {fileID: 11400000, guid: 19b0a335b308dda41ac0ef0b28aa2b9e, type: 2}
-    negativeResponse: {fileID: 11400000, guid: 7eb9472c44f81034fa497827f9087e52, type: 2}
   - charName: Vinny
     iconSprite: {fileID: 21300000, guid: 0e97f671ec7c93d4cb1cb3ac267dec9d, type: 3}
     portraitSprite: {fileID: 21300000, guid: c7daa79048a01f943af18e7c1105ece2, type: 3}
@@ -98,8 +86,6 @@ MonoBehaviour:
     - Kyo has nice handwriting
     - Kyo is not used to manual work
     - Knows how to tie knots well
-    positiveResponse: {fileID: 0}
-    negativeResponse: {fileID: 0}
   - charName: Kit
     iconSprite: {fileID: 21300000, guid: 990be633291f2a84bab29f51d8983f78, type: 3}
     portraitSprite: {fileID: 21300000, guid: a68d21fde18930f4488c599585f6a9c6, type: 3}
@@ -108,5 +94,3 @@ MonoBehaviour:
     - Hakara makes squeaky noises as they walk
     - Hakara does not wear armour
     - Kyo has no sense for the dramatic
-    positiveResponse: {fileID: 0}
-    negativeResponse: {fileID: 0}
