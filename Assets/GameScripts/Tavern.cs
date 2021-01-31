@@ -63,6 +63,7 @@ public class Tavern : MonoBehaviour
 
     public void OnClickEndDay()
     {
+        endDayButton.SetActive(false);
         convosHad = 0;
         currentDay++;
 

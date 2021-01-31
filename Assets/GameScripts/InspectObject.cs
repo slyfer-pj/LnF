@@ -62,7 +62,8 @@ public class InspectObject : MonoBehaviour
         {
             if(name == data.charName)
             {
-                obj.GetComponentInChildren<Image>().sprite = data.portraitSprite;
+                obj.GetComponentInChildren<Image>().sprite = data.iconSprite;
+                obj.GetComponentInChildren<Image>().SetNativeSize();
                 obj.GetComponentInChildren<TextMeshProUGUI>().text = data.charName;
                 obj.GetComponentInChildren<CharSelectDataHolder>().charName = data.charName;
             }

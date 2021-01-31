@@ -30,6 +30,7 @@ public class Tables : MonoBehaviour
         for(; i < TablesDialogueSet.participatingCharacters.Length; i++)
         {
             chars[i].sprite = GetCharSprite(TablesDialogueSet.participatingCharacters[i]);
+            chars[i].SetNativeSize();
             chars[i].enabled = true;
         }
 

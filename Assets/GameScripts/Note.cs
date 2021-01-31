@@ -14,6 +14,7 @@ public class Note : MonoBehaviour
     {
         charname.text = name;
         portrait.sprite = img;
+        portrait.SetNativeSize();
         clues.text = clue;
     }
 
