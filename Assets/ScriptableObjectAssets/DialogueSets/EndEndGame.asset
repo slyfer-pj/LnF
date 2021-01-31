@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: EndEndGame
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Kit
+  - Trireme
+  - Elrokris
+  container:
+  - entityName: Kit
+    dialogueSaid: So after all that... they both ended up here?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: That's them talking over there.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: Honestly, if they both wanted to run away from their wedding, they
+      could have coordinated it.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: They look like they don't know each other!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: ...Do either of them know they're talking to the other princess?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: Seems a bit clueless. Though I suppose they have no reason to suspect
+      that.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: Well, now I know why they ran away... but is it just me or do they
+      seem to be getting along?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: They are! Oh, this is so exciting! Maybe they'll be friends! Or
+      more!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: There may be some merit in doing that on your own terms.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: Well... here's to doing things on our own terms. Cheers!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
