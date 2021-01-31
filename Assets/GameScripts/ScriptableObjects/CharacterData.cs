@@ -14,6 +14,8 @@ public class CharacterDataFields
     public string charName;
     public Sprite portraitSprite;
     public string[] clueArray;
+    public DialogueData positiveResponse;
+    public DialogueData negativeResponse;
 }
 
 [System.Serializable]

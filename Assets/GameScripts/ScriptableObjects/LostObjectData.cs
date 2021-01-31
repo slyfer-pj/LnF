@@ -16,6 +16,7 @@ public class ObjectData
     [TextArea] public string objectDescription;
     public SubObjectData[] subObjData;
     public int dayUnlocked;
+    public string correctOwnerName;
 }
 
 [System.Serializable]

@@ -14,6 +14,8 @@ public class InspectObject : MonoBehaviour
     [SerializeField] private Transform subObjHolder;
     [SerializeField] private GameObject characterSelectPrefab;
     [SerializeField] private Transform characterSelectHolder;
+    [SerializeField] private GameObject returnScreen;
+    [SerializeField] private LostObjectData objData;
 
     public ObjectData InspectedObjData { get; set; }
 
@@ -33,6 +35,7 @@ public class InspectObject : MonoBehaviour
     public void OnClickReturnBag()
     {
         PopulateCharSelect();
+        returnScreen.SetActive(true);
     }
 
     private void PopulateCharSelect()
@@ -69,4 +72,34 @@ public class InspectObject : MonoBehaviour
             obj.GetComponent<SubObjDataHolder>().SubObjData = subData;
         }
     }
+
+    public void CharacterResponse(string charName)
+    {
+        string trueOwner = string.Empty;
+        foreach (ObjectData data in objData.objData)
+        {
+            if (data.objectName.Equals(InspectedObjData.objectName))
+            {
+                trueOwner = data.correctOwnerName;
+                break;
+            }
+        }
+
+        DialogueData response = null;
+
+        foreach(CharacterDataFields data in dialogueDisplay.characterData.allCharactersData)
+        {
+            if(data.charName.Equals(charName))
+            {
+                if (trueOwner.Equals(data.charName))
+                    response = data.positiveResponse;
+                else
+                    response = data.negativeResponse;
+            }
+        }
+
+        dialogueDisplay.CurrentDialogueSet = response;
+        dialogueDisplay.gameObject.SetActive(true);
+    }
+
 }

@@ -32,30 +32,26 @@ MonoBehaviour:
       subObjSprite: {fileID: 561822826474636880, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
         type: 3}
       subObjDescription: tis smoke
-    discoveredByDefault: 1
+    dayUnlocked: 2
+    correctOwnerName: 
   - objectName: Bag
     objectSprite: {fileID: -6423471159954883645, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
       type: 3}
     objectDescription: Bag
     subObjData: []
-    discoveredByDefault: 0
+    dayUnlocked: 1
+    correctOwnerName: 
   - objectName: Box
     objectSprite: {fileID: -5048171549486193957, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
       type: 3}
     objectDescription: Box
     subObjData: []
-    discoveredByDefault: 0
+    dayUnlocked: 3
+    correctOwnerName: 
   - objectName: Sword
     objectSprite: {fileID: -475637391284598790, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
       type: 3}
     objectDescription: Sword
     subObjData: []
-    discoveredByDefault: 0
-  - objectName: Gun
-    objectSprite: {fileID: 7274791877870668184, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
-      type: 3}
-    objectDescription: 'Gun
-
-'
-    subObjData: []
-    discoveredByDefault: 0
+    dayUnlocked: 4
+    correctOwnerName: 

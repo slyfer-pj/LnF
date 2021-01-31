@@ -50,4 +50,9 @@ public class FileOps
     {
         Directory.CreateDirectory(Path.Combine(basePath, directoryPath));
     }
+
+    public static void DeleteFile(string path)
+    {
+        File.Delete(Path.Combine(basePath, path));
+    }
 }
