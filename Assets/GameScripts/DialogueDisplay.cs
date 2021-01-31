@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class DialogueDisplay : MonoBehaviour
 {
+    [SerializeField] private InspectObject inspectObject;
     [SerializeField] private TextMeshProUGUI charName;
     [SerializeField] private TextMeshProUGUI dialogueField;
     [SerializeField] private Image[] portraits;
@@ -56,6 +57,7 @@ public class DialogueDisplay : MonoBehaviour
         {
             Debug.Log("end of dialogue");
             gameObject.SetActive(false);
+            inspectObject.EndGameDialogueInteractionDone = true;
         }
     }
 

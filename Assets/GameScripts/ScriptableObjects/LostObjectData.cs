@@ -17,6 +17,8 @@ public class ObjectData
     public SubObjectData[] subObjData;
     public int dayUnlocked;
     public string correctOwnerName;
+    public DialogueData successDialogueSet;
+    public DialogueData failDialogueSet;
 }
 
 [System.Serializable]
@@ -30,6 +32,7 @@ public class ObjectSaveData
 {
     public string objectName;
     public bool hasBeenDiscovered;
+    public bool returnedSuccessfully;
 }
  
 [System.Serializable]

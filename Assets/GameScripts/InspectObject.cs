@@ -6,6 +6,7 @@ using TMPro;
 
 public class InspectObject : MonoBehaviour
 {
+    [SerializeField] private GetObjectData getObjectData;
     [SerializeField] private DialogueDisplay dialogueDisplay;
     [SerializeField] private Image objImage;
     public TextMeshProUGUI descBox;
@@ -16,10 +17,13 @@ public class InspectObject : MonoBehaviour
     [SerializeField] private Transform characterSelectHolder;
     [SerializeField] private GameObject returnScreen;
     [SerializeField] private LostObjectData objData;
+    [SerializeField] private GameObject thanksForPlaying;
 
     public ObjectData InspectedObjData { get; set; }
 
     private List<string> characterSelectArray = new List<string>();
+
+    public bool EndGameDialogueInteractionDone { get; set; }
 
     private void OnEnable()
     {
@@ -60,6 +64,7 @@ public class InspectObject : MonoBehaviour
             {
                 obj.GetComponentInChildren<Image>().sprite = data.portraitSprite;
                 obj.GetComponentInChildren<TextMeshProUGUI>().text = data.charName;
+                obj.GetComponentInChildren<CharSelectDataHolder>().charName = data.charName;
             }
         }
     }
@@ -92,14 +97,58 @@ public class InspectObject : MonoBehaviour
             if(data.charName.Equals(charName))
             {
                 if (trueOwner.Equals(data.charName))
+                {
                     response = data.positiveResponse;
+                    getObjectData.UpdateReturnStatus(InspectedObjData.objectName, true);
+                }
                 else
+                {
                     response = data.negativeResponse;
+                }
             }
         }
 
         dialogueDisplay.CurrentDialogueSet = response;
         dialogueDisplay.gameObject.SetActive(true);
+    }
+
+    public IEnumerator PlayEndGameDialogues()
+    {
+        DialogueData set = null;
+        foreach(ObjectSaveData data in getObjectData.objSaveData.saveData)
+        {
+            EndGameDialogueInteractionDone = false;
+
+            if (data.returnedSuccessfully)
+                set = GetDialogueSet(data.objectName, true);
+            else
+                set = GetDialogueSet(data.objectName, false);
+
+            dialogueDisplay.CurrentDialogueSet = set;
+            dialogueDisplay.gameObject.SetActive(true);
+
+            while (!EndGameDialogueInteractionDone)
+                yield return null;
+
+            yield return new WaitForSeconds(0.5f);
+        }
+
+        thanksForPlaying.SetActive(true);
+    }
+
+    public DialogueData GetDialogueSet(string name, bool positive)
+    {
+        foreach(ObjectData dat in objData.objData)
+        {
+            if(name.Equals(dat.objectName))
+            {
+                if (positive)
+                    return dat.successDialogueSet;
+                else
+                    return dat.failDialogueSet;
+            }
+        }
+        return null;
     }
 
 }

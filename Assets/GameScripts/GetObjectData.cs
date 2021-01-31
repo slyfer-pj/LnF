@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GetObjectData : MonoBehaviour
 {
     [SerializeField] private LostObjectData lostObjData;
     [SerializeField] private GameObject objPrefab;
     [SerializeField] private Transform objHolder;
+    [SerializeField] private TextMeshProUGUI notification;
     public InspectObject inspectObjectScreen;
-    private AllObjectSaveData objSaveData;
+    [HideInInspector] public AllObjectSaveData objSaveData;
 
 
     private void Start()
@@ -71,6 +73,22 @@ public class GetObjectData : MonoBehaviour
             if(lostObjData.objData[i].dayUnlocked == dayNumber)
             {
                 objSaveData.saveData[i].hasBeenDiscovered = true;
+                notification.text = "New bag available!";
+                notification.gameObject.SetActive(true);
+            }
+        }
+
+        FileOps.Save(objSaveData, GameConstants.DATA_OBJECTSDATA_FILEPATH);
+    }
+
+    public void UpdateReturnStatus(string objName, bool status)
+    {
+        foreach(ObjectSaveData data in objSaveData.saveData)
+        {
+            if (objName.Equals(data.objectName))
+            {
+                data.returnedSuccessfully = status;
+                break;
             }
         }
 

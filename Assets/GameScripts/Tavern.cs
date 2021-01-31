@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Tavern : MonoBehaviour
 {
+    [SerializeField] private InspectObject inspectObject;
     [SerializeField] private GetObjectData objData;
     [SerializeField] private TableConfig[] tableConfigsForEachDay;
     [SerializeField] private Tables[] tables;
@@ -14,6 +15,7 @@ public class Tavern : MonoBehaviour
     private int currentDay;
 
     private int convosHad = 0;
+    private const int maxNumberOfDays = 7;
 
     private void Start()
     {
@@ -55,9 +57,20 @@ public class Tavern : MonoBehaviour
     {
         convosHad = 0;
         currentDay++;
+
+        if(currentDay > maxNumberOfDays)
+        {
+            GoToEndGame();
+        }
+
         dayInfo.text = "Day " + currentDay;
         objData.CheckIfObjectIsToBeUnlocked(currentDay);
         SetTables();
+    }
+
+    private void GoToEndGame()
+    {
+        StartCoroutine(inspectObject.PlayEndGameDialogues());
     }
 }
 
