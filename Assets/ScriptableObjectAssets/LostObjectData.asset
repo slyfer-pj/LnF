@@ -13,42 +13,36 @@ MonoBehaviour:
   m_Name: LostObjectData
   m_EditorClassIdentifier: 
   objData:
-  - objectName: Book
-    objectSprite: {fileID: 8655468781121616392, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
-      type: 3}
-    objectDescription: 'Book
-
-'
+  - objectName: Bag1
+    objectSprite: {fileID: 21300000, guid: b3ee919ecf0c6144c9a54fb8fd8fa85a, type: 3}
+    objectDescription: Dee's bag
     subObjData:
-    - subObjName: x1
-      subObjSprite: {fileID: 2753301060275289173, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
-        type: 3}
+    - subObjName: gloves
+      subObjSprite: {fileID: 21300000, guid: 85ca290a2944e234ab6ebd080c549e8c, type: 3}
       subObjDescription: tis int item
-    - subObjName: x2
-      subObjSprite: {fileID: 4621569156102734521, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
-        type: 3}
+    - subObjName: strings
+      subObjSprite: {fileID: 21300000, guid: ddb2d50c75246704d99537848162cbfe, type: 3}
       subObjDescription: tis raindrop
-    - subObjName: x3
-      subObjSprite: {fileID: 561822826474636880, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
-        type: 3}
+    - subObjName: hairpin
+      subObjSprite: {fileID: 21300000, guid: 753d8722c6b4e0f43ad219f4dc8355ab, type: 3}
       subObjDescription: tis smoke
-    dayUnlocked: 2
-    correctOwnerName: 
-  - objectName: Bag
+    dayUnlocked: 1
+    correctOwnerName: Dee
+  - objectName: Bag2
     objectSprite: {fileID: -6423471159954883645, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
       type: 3}
     objectDescription: Bag
     subObjData: []
-    dayUnlocked: 1
+    dayUnlocked: 2
     correctOwnerName: 
-  - objectName: Box
+  - objectName: Bag3
     objectSprite: {fileID: -5048171549486193957, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
       type: 3}
     objectDescription: Box
     subObjData: []
     dayUnlocked: 3
     correctOwnerName: 
-  - objectName: Sword
+  - objectName: Bag4
     objectSprite: {fileID: -475637391284598790, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
       type: 3}
     objectDescription: Sword

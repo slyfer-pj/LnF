@@ -84,6 +84,7 @@ public class Notebook : MonoBehaviour
         currentPageIndex++;
         if(currentPageIndex >= notesList.Count)
         {
+            notesList[notesList.Count -1].SetActive(false);
             currentPageIndex = 0;
         }
 

@@ -35,6 +35,7 @@ public class Tavern : MonoBehaviour
         for(int i=0; i<tables.Length; i++)
         {
             tables[i].TablesDialogueSet = tableConfigsForEachDay[currentDay - 1].dialogueSetsForTables[i];
+            tables[i].SetCharSprites();
         }
     }
 
