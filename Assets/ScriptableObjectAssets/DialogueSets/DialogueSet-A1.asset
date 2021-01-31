@@ -40,8 +40,8 @@ MonoBehaviour:
   - entityName: Dee
     dialogueSaid: If you wanted to.
     clueUnlockIfAny:
-      charName: Dee
-      clueIndex: 1
+      charName: 
+      clueIndex: 0
   - entityName: Garragin
     dialogueSaid: That's the spirit! You can do anything if you believe you can!
       We just got back from out east, but I'll put in an order next time.

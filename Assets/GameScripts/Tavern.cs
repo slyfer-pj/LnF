@@ -15,7 +15,7 @@ public class Tavern : MonoBehaviour
     private int currentDay;
 
     private int convosHad = 0;
-    private const int maxNumberOfDays = 7;
+    private const int maxNumberOfDays = 6;
 
     private void Start()
     {
@@ -63,6 +63,7 @@ public class Tavern : MonoBehaviour
 
     public void OnClickEndDay()
     {
+        endDayButton.SetActive(false);
         convosHad = 0;
         currentDay++;
 

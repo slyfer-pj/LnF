@@ -30,6 +30,7 @@ public class Tables : MonoBehaviour
         for(; i < TablesDialogueSet.participatingCharacters.Length; i++)
         {
             chars[i].sprite = GetCharSprite(TablesDialogueSet.participatingCharacters[i]);
+            chars[i].SetNativeSize();
             chars[i].enabled = true;
         }
 
@@ -42,7 +43,7 @@ public class Tables : MonoBehaviour
         foreach(CharacterDataFields data in dialogueScreen.characterData.allCharactersData)
         {
             if (data.charName.Equals(name))
-                return data.portraitSprite;
+                return data.iconSprite;
         }
         return null;
     }
