@@ -12,6 +12,7 @@ public class CharacterData : ScriptableObject
 public class CharacterDataFields
 {
     public string charName;
+    public Sprite iconSprite;
     public Sprite portraitSprite;
     public string[] clueArray;
     public DialogueData positiveResponse;

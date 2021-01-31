@@ -42,7 +42,7 @@ public class Tables : MonoBehaviour
         foreach(CharacterDataFields data in dialogueScreen.characterData.allCharactersData)
         {
             if (data.charName.Equals(name))
-                return data.portraitSprite;
+                return data.iconSprite;
         }
         return null;
     }

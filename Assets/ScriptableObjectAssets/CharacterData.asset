@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allCharactersData:
   - charName: Dee
-    portraitSprite: {fileID: 9140981839655210451, guid: 50272cc5481b6d0419b16891bc3096dc,
-      type: 3}
+    iconSprite: {fileID: 21300000, guid: 79f5e0c66308bdb4695f29bdf7b2f6ed, type: 3}
+    portraitSprite: {fileID: 21300000, guid: 4254b9fb0ceee204cb0cc8f3f3253eb6, type: 3}
     clueArray:
     - Likes feathers
     - Has clothes made from the east
@@ -25,8 +25,8 @@ MonoBehaviour:
     positiveResponse: {fileID: 0}
     negativeResponse: {fileID: 0}
   - charName: Garragin
-    portraitSprite: {fileID: 5449354407470037156, guid: 50272cc5481b6d0419b16891bc3096dc,
-      type: 3}
+    iconSprite: {fileID: 21300000, guid: 7f71fb9aace3d3b47aac649a03dccd47, type: 3}
+    portraitSprite: {fileID: 21300000, guid: 46c4ed2b4873b6d4ba8d037dffd6375f, type: 3}
     clueArray:
     - Likes feathers
     - Just came back from the east
@@ -36,8 +36,8 @@ MonoBehaviour:
     positiveResponse: {fileID: 0}
     negativeResponse: {fileID: 0}
   - charName: Elrokris
-    portraitSprite: {fileID: 9140981839655210451, guid: 50272cc5481b6d0419b16891bc3096dc,
-      type: 3}
+    iconSprite: {fileID: 21300000, guid: b858c504e059bc24c90ae9fbbc6c8819, type: 3}
+    portraitSprite: {fileID: 21300000, guid: 98552fd405170ce42bd836982710e17b, type: 3}
     clueArray:
     - Is travelling with someone who is attending the royal wedding
     - Is attending the royal wedding himself
@@ -50,8 +50,8 @@ MonoBehaviour:
     positiveResponse: {fileID: 0}
     negativeResponse: {fileID: 0}
   - charName: Trireme
-    portraitSprite: {fileID: 5379003782861072812, guid: 50272cc5481b6d0419b16891bc3096dc,
-      type: 3}
+    iconSprite: {fileID: 21300000, guid: a8c13afe55a6a314d97a20fcb761b1e7, type: 3}
+    portraitSprite: {fileID: 21300000, guid: 7501607608ae4c441bb1515b09a733f4, type: 3}
     clueArray:
     - Dee is famous
     - Dee's concerts are usually exciting
@@ -62,8 +62,8 @@ MonoBehaviour:
     positiveResponse: {fileID: 0}
     negativeResponse: {fileID: 0}
   - charName: Kyo
-    portraitSprite: {fileID: 3972034361865663802, guid: 50272cc5481b6d0419b16891bc3096dc,
-      type: 3}
+    iconSprite: {fileID: 21300000, guid: 1fbe44473439b8349b529582056b375f, type: 3}
+    portraitSprite: {fileID: 21300000, guid: 8f4298ba6537dd641bb8f4e7d9ab95b9, type: 3}
     clueArray:
     - Wants to get a metal cable made
     - Used to be part of noble society
@@ -74,8 +74,8 @@ MonoBehaviour:
     positiveResponse: {fileID: 0}
     negativeResponse: {fileID: 0}
   - charName: Hakara
-    portraitSprite: {fileID: 3159654389511851432, guid: 50272cc5481b6d0419b16891bc3096dc,
-      type: 3}
+    iconSprite: {fileID: 21300000, guid: 92e171af13493af43b4ebc930c2dedba, type: 3}
+    portraitSprite: {fileID: 21300000, guid: 25ffb90d5a13e4643a21e5b8a7fb0123, type: 3}
     clueArray:
     - Garragin's hair seems to have been a bit...destroyed
     - Garragin's girlfriend has neat handwriting
@@ -86,8 +86,8 @@ MonoBehaviour:
     positiveResponse: {fileID: 0}
     negativeResponse: {fileID: 0}
   - charName: Vinny
-    portraitSprite: {fileID: 3159654389511851432, guid: 50272cc5481b6d0419b16891bc3096dc,
-      type: 3}
+    iconSprite: {fileID: 21300000, guid: 0e97f671ec7c93d4cb1cb3ac267dec9d, type: 3}
+    portraitSprite: {fileID: 21300000, guid: c7daa79048a01f943af18e7c1105ece2, type: 3}
     clueArray:
     - There is artisinal chocolate from the east that is worth more than the gold
       it is wrapped in
@@ -101,8 +101,8 @@ MonoBehaviour:
     positiveResponse: {fileID: 0}
     negativeResponse: {fileID: 0}
   - charName: Kit
-    portraitSprite: {fileID: 3159654389511851432, guid: 50272cc5481b6d0419b16891bc3096dc,
-      type: 3}
+    iconSprite: {fileID: 0}
+    portraitSprite: {fileID: 21300000, guid: a68d21fde18930f4488c599585f6a9c6, type: 3}
     clueArray:
     - Likes Elrokris' travelling companion's style
     - Hakara makes squeaky noises as they walk

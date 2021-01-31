@@ -68,7 +68,7 @@ public class DialogueDisplay : MonoBehaviour
             if(data.charName.Equals(charName))
             {
                 portraits[index].sprite = data.portraitSprite;
-                
+                portraits[index].SetNativeSize();
                 return;
             }
         }
