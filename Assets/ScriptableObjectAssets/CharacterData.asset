@@ -45,7 +45,8 @@ MonoBehaviour:
     - Does not label his potions
     - There are life-life constructs fashioned in the west
     - A living construct may have found its way to port here
-    - Wants to take apart and study a living construct
+    - Would be interested in studying a living construct
+    - Wants to take apart a living construct
     - Constructs are hollow inside
     positiveResponse: {fileID: 0}
     negativeResponse: {fileID: 0}
@@ -81,7 +82,6 @@ MonoBehaviour:
     - Garragin's girlfriend has neat handwriting
     - Is concerned about someone's comfort
     - Seems uncomfrotable with talk of taking constructs apart
-    - Kyo is a planner
     - Kyo and Garragin are close
     positiveResponse: {fileID: 0}
     negativeResponse: {fileID: 0}
@@ -92,8 +92,8 @@ MonoBehaviour:
     - There is artisinal chocolate from the east that is worth more than the gold
       it is wrapped in
     - A renowned artisan chocolate store from the east was raided and burnt down
-    - Thinks nobles want a lot of pillows for their comfort
     - Thinks Hakara is hardier than most people
+    - Thinks nobles want a lot of pillows for their comfort
     - Kyo seems to have rope burns on her hands
     - Kyo has nice handwriting
     - Kyo is not used to manual work

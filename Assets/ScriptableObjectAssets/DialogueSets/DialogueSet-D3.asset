@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: DialogueSet-D3
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Kit
+  - Kyo
+  container:
+  - entityName: Kit
+    dialogueSaid: Dynamite! Blow up the walls-
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kyo
+    dialogueSaid: Too loud.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: A catapult! I'm sure you'd find one that fits two people-
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kyo
+    dialogueSaid: Too dangerous.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: 300 birds attached to-
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kyo
+    dialogueSaid: -Thank you. I think I'll stick with my zipline.
+    clueUnlockIfAny:
+      charName: Kyo
+      clueIndex: 4
+  - entityName: Kit
+    dialogueSaid: Bah, you have no dramatic flare!
+    clueUnlockIfAny:
+      charName: Kit
+      clueIndex: 3
+  - entityName: Kyo
+    dialogueSaid: 'I''d rather *not* get caught. If I just replace the equipment,
+      I''ll have an easy, quick, and quiet exit. '
+    clueUnlockIfAny:
+      charName: Kyo
+      clueIndex: 5
+  - entityName: Kyo
+    dialogueSaid: On that note...
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kyo
+    dialogueSaid: <Kyo leaves>
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: ...well, at least she picked up the tab.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0

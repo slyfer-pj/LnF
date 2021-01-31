@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: DialogueSet-C1
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Vinny
+  - Hakara
+  container:
+  - entityName: Vinny
+    dialogueSaid: ...Aye, can't imagine one of them airships. That much metal ain't
+      meant to fly if you ask me. Can't get me on one o' those cans.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Hakara
+    dialogueSaid: And what's wrong with travelling in a metal can?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: Well- eh? That's the part ye have trouble with?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Hakara
+    dialogueSaid: ...Right... well, all I'm saying is that with enough of the right
+      accomodations, even travelling in a can would be comfortable.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: I suppose. But I'm guessin' hardy folks like you may be able to
+      travel in anything, right?
+    clueUnlockIfAny:
+      charName: Vinny
+      clueIndex: 2
+  - entityName: Vinny
+    dialogueSaid: Those stuffy nobles would need a hun'red pillows for their comfort.
+    clueUnlockIfAny:
+      charName: 'Vinny '
+      clueIndex: 3
+  - entityName: Hakara
+    dialogueSaid: I never considered that nobles need more coddling. I should think
+      about that for them...
+    clueUnlockIfAny:
+      charName: Hakara
+      clueIndex: 2

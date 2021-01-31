@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: DialogueSet-C2
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Elrokris
+  container:
+  - entityName: Elrokris
+    dialogueSaid: Barkeep! I must ask you something. Have you seen any living constructs
+      around here?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: 
+    dialogueSaid: Hmm. Of course you haven't. Why would a construct frequent an establishment
+      like this? Either way, I hear that there have been very successful rituals
+      binding a soul into a life-like construct in the west.
+    clueUnlockIfAny:
+      charName: Elrokris
+      clueIndex: 4
+  - entityName: Elrokris
+    dialogueSaid: Rumour has it that one of them managed to land in port here. I've
+      heard they are nearly indistinguishable from regular folks.
+    clueUnlockIfAny:
+      charName: Elrokris
+      clueIndex: 5
+  - entityName: 
+    dialogueSaid: So if you hear anything, it would really help me if you let me
+      know. I would be eager to study them.
+    clueUnlockIfAny:
+      charName: Elrokris
+      clueIndex: 6

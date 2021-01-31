@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: DialogueSet-D2
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Kyo
+  - Vinny
+  container:
+  - entityName: Kyo
+    dialogueSaid: "Tch!\t"
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: 'Would you look at that! Took you for a fancy lady; but look at
+      you with your rope burns. '
+    clueUnlockIfAny:
+      charName: Vinny
+      clueIndex: 4
+  - entityName: Vinny
+    dialogueSaid: I thought you'd have joined the crew for your pretty penmanship...
+    clueUnlockIfAny:
+      charName: Vinny
+      clueIndex: 5
+  - entityName: Vinny
+    dialogueSaid: ...not for the hard work.
+    clueUnlockIfAny:
+      charName: Vinny
+      clueIndex: 6
+  - entityName: Kyo
+    dialogueSaid: The implication that a Quartermaster's work isn't hard is insulting.
+    clueUnlockIfAny:
+      charName: Kyo
+      clueIndex: 3
+  - entityName: Vinny
+    dialogueSaid: Ah, no, lass, that's a jab of respect! I couldn't keep the ledgers,
+      but you're able to do what I do best! I'm jus' impressed.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: Let me know if you be needing some help with the knots.
+    clueUnlockIfAny:
+      charName: Vinny
+      clueIndex: 7
+  - entityName: Kyo
+    dialogueSaid: ...thanks?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0

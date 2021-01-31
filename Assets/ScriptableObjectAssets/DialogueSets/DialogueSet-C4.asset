@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: DialogueSet-C4
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Trireme
+  - Elrokris
+  - Hakara
+  container:
+  - entityName: Trireme
+    dialogueSaid: What would you even do if you found one of them?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: Take it apart, of course. Wouldn't it be fascinating to discover
+      the secret behind magical life?
+    clueUnlockIfAny:
+      charName: Elrokris
+      clueIndex: 7
+  - entityName: Trireme
+    dialogueSaid: So close, yet so far. I think you're missing the point that it's
+      LIFE?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: Although technically sentient, a construct is a construct. They're
+      hollow inside both physically and... you know... spiritually, I suppose.
+    clueUnlockIfAny:
+      charName: Elrokris
+      clueIndex: 8
+  - entityName: Trireme
+    dialogueSaid: Hollow inside? Sounds great for a smuggling operation, huh Hakara?
+    clueUnlockIfAny:
+      charName: Trireme
+      clueIndex: 5
+  - entityName: Hakara
+    dialogueSaid: ...
+    clueUnlockIfAny:
+      charName: Hakara
+      clueIndex: 3

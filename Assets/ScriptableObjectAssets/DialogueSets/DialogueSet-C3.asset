@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: DialogueSet-C3
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Kit
+  - Vinny
+  container:
+  - entityName: Kit
+    dialogueSaid: You seen that Hakara person around before? They're real odd, doncha
+      think?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: What makes ye say that?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: Well... the other day... they were kinda... squeaking when they
+      walked.
+    clueUnlockIfAny:
+      charName: Kit
+      clueIndex: 1
+  - entityName: Vinny
+    dialogueSaid: Musta let their armour get outta place.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: That's the thing... not a lick of armour on 'em.
+    clueUnlockIfAny:
+      charName: Kit
+      clueIndex: 2
+  - entityName: Vinny
+    dialogueSaid: Then maybe something they were-
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: 
+    dialogueSaid: Nah, Vinny, they were sqeaking as they walked!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: '*Laughing* Don''t let ''em hear you say that! They''ll really
+      prolly knock sense into ye!'
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: '*Grumbles* I know what I heard.'
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
