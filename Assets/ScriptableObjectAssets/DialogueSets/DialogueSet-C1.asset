@@ -34,7 +34,7 @@ MonoBehaviour:
       clueIndex: 0
   - entityName: Hakara
     dialogueSaid: ...Right... well, all I'm saying is that with enough of the right
-      accomodations, even travelling in a can would be comfortable.
+      accommodations, even travelling in a can would be comfortable.
     clueUnlockIfAny:
       charName: 
       clueIndex: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: EndGameNegative-D
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Vinny
+  - Trireme
+  - Kit
+  container:
+  - entityName: Vinny
+    dialogueSaid: So in all of this confusion... how did Kyo break her leg?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: It turns out Kyo was trying to get the Northern Princess out of
+      the palace.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: Wait... that's why she went there?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: Apparently the princess didn't want to stay for her own wedding!
+      As for Kyo's leg...
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: Oh, I know this one! Kyo had this big plan to zip out of a window,
+      but couldn't get it right. So she used regular old rope and tried to climb
+      down.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: Oh no... Kyo's no' the strongest person...
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: Yep. So she took a tumble.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: Well, she's lucky that the princess was able to get down safely!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0

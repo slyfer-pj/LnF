@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: EndGameNegative-C
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Kit
+  - Elrokris
+  - Vinny
+  container:
+  - entityName: Kit
+    dialogueSaid: Still sounds like my kind of party... but didn't expect Hakara
+      ta show up!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: This is where things get really confusing. They tried to kidnap
+      the Southern princess?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: Aye, sorta. The princess tried ta escape in Hakara's chest.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: She got into a small box?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: No, no. In their actual torso! Turns out they... uh... can open
+      up?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: What?! A construct?!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: I KNEW IT!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: 'Apparently they go'' caught when the princess was rattlin'' around
+      in there. Nothin'' to block the sound.
+
+      Elrokris: Well? Where are they
+      now?'
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elrokris
+    dialogueSaid: Well? Where are they now?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: All I 'heard is that their torso an' their legs go' away separately.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Elokris
+    dialogueSaid: 'Incredible.
+
+'
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: Scary.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: Well, the princess was glad ta ge' away, so, i' worked out I suppose.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0

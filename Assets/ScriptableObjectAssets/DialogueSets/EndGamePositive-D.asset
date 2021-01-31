@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: EndGamePositive-D
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Trireme
+  - Kit
+  - Vinny
+  container:
+  - entityName: Trireme
+    dialogueSaid: While all of that was happening, Kyo actually got to the Northern
+      princess!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: Wait... so she was also trying to run from the wedding?
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: Apparently! Kyo took her to the tallest tower.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: Seems like the wrong direction...
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: She hoisted up a metal rope that was fixed on the other side...
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Vinny
+    dialogueSaid: I don' get it...
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: She used a pulley to attach a rope... and then ZIPPED down the
+      line!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Kit
+    dialogueSaid: I take back what I said before... a zipline is plenty dramatic!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Trireme
+    dialogueSaid: Trust her to have a clean getaway like that!
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0

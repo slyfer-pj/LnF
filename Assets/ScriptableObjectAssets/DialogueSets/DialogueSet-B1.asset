@@ -37,8 +37,8 @@ MonoBehaviour:
       charName: Axe
       clueIndex: 1
   - entityName: Hakara
-    dialogueSaid: Don't tell me your girfriend cut your hair! You'd think she'd be
-      better with her hands-
+    dialogueSaid: Don't tell me your girlfriend cut your hair! You'd think she'd
+      be better with her hands-
     clueUnlockIfAny:
       charName: 
       clueIndex: 0
