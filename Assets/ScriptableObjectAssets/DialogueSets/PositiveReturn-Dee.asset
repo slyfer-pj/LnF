@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: PositiveReturn-Dee
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Dee
+  container:
+  - entityName: Dee
+    dialogueSaid: Ohmygod thank you... I would have gotten stuck without this.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Dee
+    dialogueSaid: Honestly, I'm performing at the palace during the wedding.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Dee
+    dialogueSaid: It's important that I put on a big show. Keep everyone's attention.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Dee
+    dialogueSaid: It wouldn't have worked out great without my guitar strings.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0

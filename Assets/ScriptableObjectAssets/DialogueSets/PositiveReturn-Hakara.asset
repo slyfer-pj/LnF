@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a98c6e0c89e04f8b029d8882110ec, type: 3}
+  m_Name: PositiveReturn-Hakara
+  m_EditorClassIdentifier: 
+  participatingCharacters:
+  - Hakara
+  container:
+  - entityName: Hakara
+    dialogueSaid: You found it! Oh, I'm relieved. I was worried I'd have to go out
+      and get more comfy things.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Hakara
+    dialogueSaid: This is going to sound... odd... but can you help me load these
+      into my torso.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Hakara
+    dialogueSaid: 'Yes, yes, I am a construct. PLEASE don''t tell Elrokris... '
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Hakara
+    dialogueSaid: I'm just trying to make sure that it's comfortable - and quiet
+      - in here for-
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Hakara
+    dialogueSaid: uh- for a new travelling companion.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
+  - entityName: Hakara
+    dialogueSaid: Just know that you're helping someone out of a bad situation. I'm
+      sure she'd thank you herself if she could.
+    clueUnlockIfAny:
+      charName: 
+      clueIndex: 0
