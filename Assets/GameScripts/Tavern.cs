@@ -36,8 +36,16 @@ public class Tavern : MonoBehaviour
     {
         for(int i=0; i<tables.Length; i++)
         {
-            tables[i].TablesDialogueSet = tableConfigsForEachDay[currentDay - 1].dialogueSetsForTables[i];
-            tables[i].SetCharSprites();
+            if (tableConfigsForEachDay[currentDay - 1].dialogueSetsForTables[i] != null)
+            {
+                tables[i].GetComponent<Selectable>().interactable = true;
+                tables[i].TablesDialogueSet = tableConfigsForEachDay[currentDay - 1].dialogueSetsForTables[i];
+                tables[i].SetCharSprites();
+            }
+            else
+            {
+                tables[i].GetComponent<Selectable>().interactable = false;
+            }
         }
     }
 
