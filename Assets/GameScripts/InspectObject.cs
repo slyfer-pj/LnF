@@ -81,33 +81,35 @@ public class InspectObject : MonoBehaviour
 
     public void CharacterResponse(string charName)
     {
-        string trueOwner = string.Empty;
+        DialogueData response = null;
         foreach (ObjectData data in objData.objData)
         {
             if (data.objectName.Equals(InspectedObjData.objectName))
             {
-                trueOwner = data.correctOwnerName;
-                break;
-            }
-        }
-
-        DialogueData response = null;
-
-        foreach(CharacterDataFields data in dialogueDisplay.characterData.allCharactersData)
-        {
-            if(data.charName.Equals(charName))
-            {
-                if (trueOwner.Equals(data.charName))
-                {
-                    response = data.positiveResponse;
-                    getObjectData.UpdateReturnStatus(InspectedObjData.objectName, true);
-                }
+                if (data.correctOwnerName.Equals(charName))
+                    response = data.successDialogueSet;
                 else
-                {
-                    response = data.negativeResponse;
-                }
+                    response = data.failDialogueSet;
             }
         }
+
+        
+
+        //foreach(CharacterDataFields data in dialogueDisplay.characterData.allCharactersData)
+        //{
+        //    if(data.charName.Equals(charName))
+        //    {
+        //        if (trueOwner.Equals(data.charName))
+        //        {
+        //            response = data.positiveResponse;
+        //            getObjectData.UpdateReturnStatus(InspectedObjData.objectName, true);
+        //        }
+        //        else
+        //        {
+        //            response = data.negativeResponse;
+        //        }
+        //    }
+        //}
 
         dialogueDisplay.CurrentDialogueSet = response;
         dialogueDisplay.gameObject.SetActive(true);

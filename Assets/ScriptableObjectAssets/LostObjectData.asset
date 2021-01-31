@@ -13,59 +13,84 @@ MonoBehaviour:
   m_Name: LostObjectData
   m_EditorClassIdentifier: 
   objData:
-  - objectName: Bag1
+  - objectName: A
     objectSprite: {fileID: 21300000, guid: b3ee919ecf0c6144c9a54fb8fd8fa85a, type: 3}
     objectDescription: Dee's bag
     subObjData:
     - subObjName: gloves
       subObjSprite: {fileID: 21300000, guid: 85ca290a2944e234ab6ebd080c549e8c, type: 3}
-      subObjDescription: tis int item
+      subObjDescription: Some soft, well-made gloves. They look quite fancy.
     - subObjName: strings
       subObjSprite: {fileID: 21300000, guid: ddb2d50c75246704d99537848162cbfe, type: 3}
-      subObjDescription: tis raindrop
+      subObjDescription: Thin ropes of metal of different widths.
     - subObjName: hairpin
       subObjSprite: {fileID: 21300000, guid: 753d8722c6b4e0f43ad219f4dc8355ab, type: 3}
-      subObjDescription: tis smoke
+      subObjDescription: Some kind of wooden peg or screw. They have small holes
+        - maybe something needs to be threaded through?
     dayUnlocked: 1
     correctOwnerName: Dee
     successDialogueSet: {fileID: 11400000, guid: 6fb40548ba9d958418505264be9ae83c,
       type: 2}
-    failDialogueSet: {fileID: 0}
-  - objectName: Bag2
+    failDialogueSet: {fileID: 11400000, guid: dd1bed17a7ba3864bac70f9dea96f4f9, type: 2}
+  - objectName: B
     objectSprite: {fileID: 21300000, guid: 25651932d5ae61d4987f345fdbf9a45f, type: 3}
     objectDescription: Bag
     subObjData:
-    - subObjName: 
-      subObjSprite: {fileID: 0}
-      subObjDescription: 
-    - subObjName: 
-      subObjSprite: {fileID: 0}
-      subObjDescription: 
-    - subObjName: 
-      subObjSprite: {fileID: 0}
-      subObjDescription: 
-    - subObjName: 
-      subObjSprite: {fileID: 0}
-      subObjDescription: 
+    - subObjName: b1
+      subObjSprite: {fileID: 21300000, guid: cfdd756c2af15aa4894d7c3380319913, type: 3}
+      subObjDescription: A bandanna that looks like it caught on fire. At least a
+        little.
+    - subObjName: b2
+      subObjSprite: {fileID: 21300000, guid: a7247e4a1391c144c89d63ba0908946e, type: 3}
+      subObjDescription: This looks like an egg made out of solid gold! Whoever lost
+        this probably would really like it back! It's best not to let on that I have
+        something like this back here.
+    - subObjName: b3
+      subObjSprite: {fileID: 21300000, guid: f1c6698b8b0fbe347a3e60f7694b242b, type: 3}
+      subObjDescription: Some nice formal wear, good enough for a noble! Must be
+        for a big event.
+    - subObjName: b4
+      subObjSprite: {fileID: 21300000, guid: 0cfe45bdec794fa4588e5d754ed7ef95, type: 3}
+      subObjDescription: Small bottles clearly labelled "poison". I'm certainly not
+        touching those.
     dayUnlocked: 2
     correctOwnerName: Garragin
-    successDialogueSet: {fileID: 0}
-    failDialogueSet: {fileID: 0}
-  - objectName: Bag3
-    objectSprite: {fileID: -5048171549486193957, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
-      type: 3}
+    successDialogueSet: {fileID: 11400000, guid: 11e143e1442cc4d43aecec40735e8446,
+      type: 2}
+    failDialogueSet: {fileID: 11400000, guid: 030f9511c649fc247afc5f939f31a184, type: 2}
+  - objectName: C
+    objectSprite: {fileID: 21300000, guid: edf6983eceede3b42b0d355baa522bd0, type: 3}
     objectDescription: Box
-    subObjData: []
+    subObjData:
+    - subObjName: c1
+      subObjSprite: {fileID: 21300000, guid: 68f0845e22fb42c47a7fb6fe30645ada, type: 3}
+      subObjDescription: A thick rope of metal braided together. It looks like it
+        could carry some weight.
+    - subObjName: c2
+      subObjSprite: {fileID: 21300000, guid: 510c806d36b314f40b8ca57ee8a3cdec, type: 3}
+      subObjDescription: A greased pulley wheel. Standard equipment for a ship.
+    - subObjName: c3
+      subObjSprite: {fileID: 21300000, guid: bbd21d79f02661446a822a046c11d4f0, type: 3}
+      subObjDescription: Some rope with knots tied in. These knots would make it
+        easier to get a good grip on them.
     dayUnlocked: 3
-    correctOwnerName: 
-    successDialogueSet: {fileID: 0}
-    failDialogueSet: {fileID: 0}
-  - objectName: Bag4
-    objectSprite: {fileID: -475637391284598790, guid: fbbf7f7fc95efe74e9b467e08f1a2278,
-      type: 3}
+    correctOwnerName: Kyo
+    successDialogueSet: {fileID: 11400000, guid: 065d61a81dd0d404bb6ae50c80a26aac,
+      type: 2}
+    failDialogueSet: {fileID: 11400000, guid: 8b76856b45412f34d82d184d5868216f, type: 2}
+  - objectName: D
+    objectSprite: {fileID: 21300000, guid: 911ea2749269e864397e6c4a5273d5f3, type: 3}
     objectDescription: Sword
-    subObjData: []
+    subObjData:
+    - subObjName: d1
+      subObjSprite: {fileID: 21300000, guid: 31d0f30d5de3bf64fb172df1f7f92bdc, type: 3}
+      subObjDescription: A pile of cute, soft blankets and pillows. They look very
+        comfortable. There's enough to fill a small carriage.
+    - subObjName: d2
+      subObjSprite: {fileID: 21300000, guid: f260076a028bd444eac6faf9b65177e3, type: 3}
+      subObjDescription: An oil can, used to lubricate moving parts and metal joints.
     dayUnlocked: 4
-    correctOwnerName: 
-    successDialogueSet: {fileID: 0}
-    failDialogueSet: {fileID: 0}
+    correctOwnerName: Hakara
+    successDialogueSet: {fileID: 11400000, guid: 19b0a335b308dda41ac0ef0b28aa2b9e,
+      type: 2}
+    failDialogueSet: {fileID: 11400000, guid: 7eb9472c44f81034fa497827f9087e52, type: 2}
