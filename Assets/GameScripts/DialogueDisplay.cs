@@ -36,6 +36,10 @@ public class DialogueDisplay : MonoBehaviour
             index++;
         }
 
+        for (; index < portraits.Length; index++)
+            portraits[index].enabled = false;
+
+
         ShowDialogue();
         CheckIfNewCharacterIsDiscovered();
     }
@@ -67,6 +71,7 @@ public class DialogueDisplay : MonoBehaviour
         {
             if(data.charName.Equals(charName))
             {
+                portraits[index].enabled = true;
                 portraits[index].sprite = data.portraitSprite;
                 portraits[index].SetNativeSize();
                 return;

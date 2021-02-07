@@ -92,4 +92,9 @@ public class Notebook : MonoBehaviour
         if (currentPageIndex - 1 > -1)
             notesList[currentPageIndex - 1].SetActive(false);
     }
+
+    private void OnDisable()
+    {
+        notesList[currentPageIndex].SetActive(false);
+    }
 }

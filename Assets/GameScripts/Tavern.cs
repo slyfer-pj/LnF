@@ -44,6 +44,7 @@ public class Tavern : MonoBehaviour
             }
             else
             {
+                tables[i].ClearCharSprites();
                 tables[i].GetComponent<Selectable>().interactable = false;
             }
         }
@@ -55,7 +56,10 @@ public class Tavern : MonoBehaviour
         if(convosHad == 2)
         {
             foreach (Tables table in tables)
+            {
                 table.GetComponent<Selectable>().interactable = false;
+                table.ReduceCharAlpha();
+            }
 
             endDayButton.SetActive(true);
         }
@@ -63,6 +67,7 @@ public class Tavern : MonoBehaviour
 
     public void OnClickEndDay()
     {
+        ClearTables();
         endDayButton.SetActive(false);
         convosHad = 0;
         currentDay++;
@@ -75,6 +80,11 @@ public class Tavern : MonoBehaviour
         dayInfo.text = "Day " + currentDay;
         objData.CheckIfObjectIsToBeUnlocked(currentDay);
         SetTables();
+    }
+
+    private void ClearTables()
+    {
+
     }
 
     private void GoToEndGame()

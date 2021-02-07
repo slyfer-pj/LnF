@@ -94,24 +94,7 @@ public class InspectObject : MonoBehaviour
                     response = data.failDialogueSet;
             }
         }
-
         
-
-        //foreach(CharacterDataFields data in dialogueDisplay.characterData.allCharactersData)
-        //{
-        //    if(data.charName.Equals(charName))
-        //    {
-        //        if (trueOwner.Equals(data.charName))
-        //        {
-        //            response = data.positiveResponse;
-        //            getObjectData.UpdateReturnStatus(InspectedObjData.objectName, true);
-        //        }
-        //        else
-        //        {
-        //            response = data.negativeResponse;
-        //        }
-        //    }
-        //}
 
         dialogueDisplay.CurrentDialogueSet = response;
         dialogueDisplay.gameObject.SetActive(true);
@@ -169,6 +152,19 @@ public class InspectObject : MonoBehaviour
         gameObject.SetActive(false);
         getObjectData.gameObject.SetActive(false);
         getObjectData.objHolder.GetChild(SiblingIndex).GetComponent<Selectable>().interactable = false;
+    }
+
+    private void ClearSubObjects()
+    {
+        foreach(Transform child in subObjHolder)
+        {
+            Destroy(child.gameObject);
+        }
+    }
+
+    private void OnDisable()
+    {
+        ClearSubObjects();
     }
 
 }

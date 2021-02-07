@@ -22,6 +22,16 @@ public class Tables : MonoBehaviour
         GetComponent<Selectable>().interactable = false;
         dialogueScreen.CurrentDialogueSet = TablesDialogueSet;
         dialogueScreen.gameObject.SetActive(true);
+
+        ReduceCharAlpha();
+    }
+
+    public void ReduceCharAlpha()
+    {
+        for(int i=0; i<chars.Length; i++)
+        {
+            chars[i].color = new Color(chars[i].color.r, chars[i].color.g, chars[i].color.b, 0.5f);
+        }
     }
 
     public void SetCharSprites()
@@ -30,11 +40,18 @@ public class Tables : MonoBehaviour
         for(; i < TablesDialogueSet.participatingCharacters.Length; i++)
         {
             chars[i].sprite = GetCharSprite(TablesDialogueSet.participatingCharacters[i]);
+            chars[i].color = new Color(chars[i].color.r, chars[i].color.g, chars[i].color.b, 1f);
             chars[i].SetNativeSize();
             chars[i].enabled = true;
         }
 
         for (; i < chars.Length; i++)
+            chars[i].enabled = false;
+    }
+
+    public void ClearCharSprites()
+    {
+        for (int i = 0; i < chars.Length; i++)
             chars[i].enabled = false;
     }
 

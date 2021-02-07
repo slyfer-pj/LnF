@@ -16,9 +16,12 @@ MonoBehaviour:
   - Kyo
   container:
   - entityName: Kyo
-    dialogueSaid: "There sure are a lot of nobles here all of a sudden. I'm guessing
-      it has something to do with the royal wedding.\r All of this peacocking really
-      takes me back to my old life in high society. I'm glad I left that behind."
+    dialogueSaid: 'There sure are a lot of nobles here all of a sudden. I''m guessing
+      it has something to do with the royal wedding.
+
+      All of this peacocking
+      really takes me back to my old life in high society. I''m glad I left that
+      behind.'
     clueUnlockIfAny:
       charName: Kyo
       clueIndex: 1
