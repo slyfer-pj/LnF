@@ -89,9 +89,14 @@ public class InspectObject : MonoBehaviour
             if (data.objectName.Equals(InspectedObjData.objectName))
             {
                 if (data.correctOwnerName.Equals(charName))
+                {
                     response = data.successDialogueSet;
+                    getObjectData.UpdateReturnStatus(data.objectName, true);
+                }
                 else
+                {
                     response = data.failDialogueSet;
+                }
             }
         }
         
@@ -154,7 +159,7 @@ public class InspectObject : MonoBehaviour
         getObjectData.objHolder.GetChild(SiblingIndex).GetComponent<Selectable>().interactable = false;
     }
 
-    private void ClearSubObjects()
+    public void ClearSubObjects()
     {
         foreach(Transform child in subObjHolder)
         {
