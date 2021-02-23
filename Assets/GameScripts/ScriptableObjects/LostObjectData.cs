@@ -17,8 +17,8 @@ public class ObjectData
     public SubObjectData[] subObjData;
     public int dayUnlocked;
     public string correctOwnerName;
-    public DialogueData successDialogueSet;
-    public DialogueData failDialogueSet;
+    //public DialogueData successDialogueSet;
+    //public DialogueData failDialogueSet;
     public DialogueData endGameSuccessDialogueSet;
     public DialogueData endGameFailDialogueSet;
 }

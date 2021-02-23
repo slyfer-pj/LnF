@@ -90,12 +90,12 @@ public class InspectObject : MonoBehaviour
             {
                 if (data.correctOwnerName.Equals(charName))
                 {
-                    response = data.successDialogueSet;
+                    response = GetBagReturnDialogueSet(charName, true);
                     getObjectData.UpdateReturnStatus(data.objectName, true);
                 }
                 else
                 {
-                    response = data.failDialogueSet;
+                    response = GetBagReturnDialogueSet(charName, false);
                 }
             }
         }
@@ -137,7 +137,23 @@ public class InspectObject : MonoBehaviour
 
     }
 
-    public DialogueData GetDialogueSet(string name, bool positive)
+    private DialogueData GetBagReturnDialogueSet(string name, bool positive)
+    {
+        foreach(CharacterDataFields data in dialogueDisplay.characterData.allCharactersData)
+        {
+            if(name.Equals(data.charName))
+            {
+                if (positive)
+                    return data.positiveBagReturnResponse;
+                else
+                    return data.negativeBagReturnResponse;
+            }
+        }
+        return null;
+    }
+
+
+    private DialogueData GetDialogueSet(string name, bool positive)
     {
         foreach(ObjectData dat in objData.objData)
         {

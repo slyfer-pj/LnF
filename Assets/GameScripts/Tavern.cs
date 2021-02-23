@@ -27,7 +27,7 @@ public class Tavern : MonoBehaviour
             PlayerPrefs.SetInt(GameConstants.PREFS_CURRENTDAY, 1);
         }
 
-        dayInfo.text = "Day " + currentDay;
+        dayInfo.text = "Day " + currentDay + ": " + GetTimeOfDay();
 
         SetTables();
     }
@@ -53,7 +53,8 @@ public class Tavern : MonoBehaviour
     public void TableClicked()
     {
         convosHad++;
-        if(convosHad == 2)
+        dayInfo.text = "Day " + currentDay + ": " + GetTimeOfDay();
+        if (convosHad == 2)
         {
             foreach (Tables table in tables)
             {
@@ -67,7 +68,6 @@ public class Tavern : MonoBehaviour
 
     public void OnClickEndDay()
     {
-        ClearTables();
         endDayButton.SetActive(false);
         convosHad = 0;
         currentDay++;
@@ -77,14 +77,19 @@ public class Tavern : MonoBehaviour
             GoToEndGame();
         }
 
-        dayInfo.text = "Day " + currentDay;
+        dayInfo.text = "Day " + currentDay + ": " + GetTimeOfDay();
         objData.CheckIfObjectIsToBeUnlocked(currentDay);
         SetTables();
     }
-
-    private void ClearTables()
+    
+    private string GetTimeOfDay()
     {
-
+        if (convosHad == 0)
+            return "Morning";
+        else if (convosHad == 1)
+            return "Evening";
+        else
+            return "Closing Time";
     }
 
     private void GoToEndGame()
