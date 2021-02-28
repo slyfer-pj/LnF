@@ -14,7 +14,9 @@ public class CharSelectDataHolder : MonoBehaviour
 
     public void OnClickCharacter()
     {
-        inspectObject.CharacterResponse(charName);
-        inspectObject.RemoveBag();
+        inspectObject.confirmDialogueBox.SetActive(true);
+        inspectObject.CurrentSelectedCharacter = charName;
     }
+
+    
 }

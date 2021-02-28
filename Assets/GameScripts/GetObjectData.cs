@@ -39,6 +39,7 @@ public class GetObjectData : MonoBehaviour
             {
                 GameObject obj = Instantiate(objPrefab, objHolder);
                 obj.GetComponent<Image>().sprite = lostObjData.objData[i].objectSprite;
+                obj.GetComponent<Image>().SetNativeSize();
                 obj.GetComponent<ObjDataHolder>().ObjData = lostObjData.objData[i];
             }
         }
@@ -104,5 +105,28 @@ public class GetObjectData : MonoBehaviour
         }
 
         FileOps.Save(objSaveData, GameConstants.DATA_OBJECTSDATA_FILEPATH);
+    }
+
+    public IEnumerator ForcePlayerToReturnAllBags()
+    {
+        bool allBagsReturned = false;
+        while(!allBagsReturned)
+        {
+            foreach (Transform child in objHolder)
+            {
+                allBagsReturned = true;
+                if (child.GetComponent<Selectable>().interactable)
+                {
+                    allBagsReturned = false;
+                    break;
+                }
+            }
+
+            yield return null;
+
+        }
+
+        yield return new WaitForEndOfFrame();
+        StartCoroutine(inspectObjectScreen.PlayEndGameDialogues());
     }
 }

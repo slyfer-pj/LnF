@@ -19,9 +19,11 @@ public class InspectObject : MonoBehaviour
     [SerializeField] private LostObjectData objData;
     [SerializeField] private GameObject thanksForPlaying;
     [SerializeField] private DialogueData superEndGame;
+    [SerializeField] public GameObject confirmDialogueBox;
 
     public ObjectData InspectedObjData { get; set; }
     public int SiblingIndex { get; set; }
+    public string CurrentSelectedCharacter { get; set; }
 
     private List<string> characterSelectArray = new List<string>();
 
@@ -171,7 +173,7 @@ public class InspectObject : MonoBehaviour
     public void RemoveBag()
     {
         gameObject.SetActive(false);
-        getObjectData.gameObject.SetActive(false);
+        //getObjectData.gameObject.SetActive(false);
         getObjectData.objHolder.GetChild(SiblingIndex).GetComponent<Selectable>().interactable = false;
     }
 
@@ -180,6 +182,15 @@ public class InspectObject : MonoBehaviour
         foreach(Transform child in subObjHolder)
         {
             Destroy(child.gameObject);
+        }
+    }
+
+    public void GiveBagToCharacter()
+    {
+        if (CurrentSelectedCharacter != null)
+        {
+            CharacterResponse(CurrentSelectedCharacter);
+            RemoveBag();
         }
     }
 

@@ -12,6 +12,8 @@ public class Tavern : MonoBehaviour
     [SerializeField] private Tables[] tables;
     [SerializeField] private TextMeshProUGUI dayInfo;
     [SerializeField] private GameObject endDayButton;
+    [SerializeField] private Button lostAndFound;
+    [SerializeField] private Button tavern;
     private int currentDay;
 
     private int convosHad = 0;
@@ -62,6 +64,8 @@ public class Tavern : MonoBehaviour
                 table.ReduceCharAlpha();
             }
 
+            if (currentDay == maxNumberOfDays)
+                endDayButton.GetComponentInChildren<TextMeshProUGUI>().text = "End day (last day!)";
             endDayButton.SetActive(true);
         }
     }
@@ -94,7 +98,10 @@ public class Tavern : MonoBehaviour
 
     private void GoToEndGame()
     {
-        StartCoroutine(inspectObject.PlayEndGameDialogues());
+        lostAndFound.onClick.Invoke();
+        lostAndFound.interactable = false;
+        tavern.interactable = false;
+        objData.StartCoroutine(objData.ForcePlayerToReturnAllBags());
     }
 }
 
