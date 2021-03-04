@@ -8366,6 +8366,7 @@ MonoBehaviour:
   objSaveData:
     saveData: []
   firstTimeOnly: {fileID: 1413530844}
+  dialogueDisplay: {fileID: 1513974900}
 --- !u!114 &1393531748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9570,6 +9571,7 @@ MonoBehaviour:
   returnScreen: {fileID: 1118479613}
   objData: {fileID: 11400000, guid: 9abbe2acaa3773040931f49ac3989191, type: 2}
   thanksForPlaying: {fileID: 1726016255}
+  endGameStarting: {fileID: 11400000, guid: d9ec50b7c29d611409c4a15510b0f7c1, type: 2}
   superEndGame: {fileID: 11400000, guid: 3cf83ef5bc2d7264caa1e179d24c4486, type: 2}
   confirmDialogueBox: {fileID: 1200750597}
 --- !u!1 &1714747902

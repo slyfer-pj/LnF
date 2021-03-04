@@ -18,6 +18,7 @@ public class InspectObject : MonoBehaviour
     [SerializeField] private GameObject returnScreen;
     [SerializeField] private LostObjectData objData;
     [SerializeField] private GameObject thanksForPlaying;
+    [SerializeField] private DialogueData endGameStarting;
     [SerializeField] private DialogueData superEndGame;
     [SerializeField] public GameObject confirmDialogueBox;
 
@@ -110,7 +111,17 @@ public class InspectObject : MonoBehaviour
     public IEnumerator PlayEndGameDialogues()
     {
         DialogueData set = null;
-        foreach(ObjectSaveData data in getObjectData.objSaveData.saveData)
+        EndGameDialogueInteractionDone = false;
+
+        dialogueDisplay.CurrentDialogueSet = endGameStarting;
+        dialogueDisplay.gameObject.SetActive(true);
+
+        while (!EndGameDialogueInteractionDone)
+            yield return null;
+
+        yield return new WaitForSeconds(0.5f);
+
+        foreach (ObjectSaveData data in getObjectData.objSaveData.saveData)
         {
             EndGameDialogueInteractionDone = false;
 

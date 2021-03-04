@@ -13,6 +13,7 @@ public class GetObjectData : MonoBehaviour
     public InspectObject inspectObjectScreen;
     [HideInInspector] public AllObjectSaveData objSaveData;
     [SerializeField] public TextMeshProUGUI firstTimeOnly;
+    [SerializeField] public GameObject dialogueDisplay;
 
 
     private void Awake()
@@ -127,6 +128,12 @@ public class GetObjectData : MonoBehaviour
         }
 
         yield return new WaitForEndOfFrame();
+        while (dialogueDisplay.activeInHierarchy)
+            yield return null;
+
+        yield return new WaitForSeconds(1f);
+
+        Debug.Log("going into end game now");
         StartCoroutine(inspectObjectScreen.PlayEndGameDialogues());
     }
 }
